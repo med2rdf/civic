@@ -1,0 +1,8 @@
+
+civic:{{message.disease_code}}
+{%- if message.has_doid %}
+    rdfs:seeAlso obo:DOID_{{message.doid}} ;
+{%- endif %}
+    civico:diseaseName "{{message.disease}}"^^xsd:string ;
+    a civico:Disease, m2r:Disease .
+

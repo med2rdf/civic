@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.jp/bio/10/civic/ontology#"
+     xml:base="http://purl.jp/bio/10/civic/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.jp/bio/10/civic/ontology#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#drug -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#drug">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+        <rdfs:range rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Drug"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#evidence -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#evidence">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+        <rdfs:range rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Transcript -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#Transcript">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#citation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#citation">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#clinicalSignificance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#clinicalSignificance">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#diseaseName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#diseaseName">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Disease"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#drug_description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#drug_description">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#ensemblVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#ensemblVersion">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#evidenceDirection -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#evidenceDirection">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#evidenceLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#evidenceLevel">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#evidenceStatment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#evidenceStatment">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#evidenceStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#evidenceStatus">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#evidenceType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#evidenceType">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#geneID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#geneID">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Gene"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#geneName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#geneName">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Gene"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#hgvs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hgvs">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#rating">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#referenceBuild -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#referenceBuild">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#variantGroups -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#variantGroups">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#variantID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#variantID">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#variantName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#variantName">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#variantOrigin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#variantOrigin">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#variantSummary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#variantSummary">
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Disease -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Disease"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Drug -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Drug"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Evidence -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Evidence"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Gene -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Gene"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Variation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Variation"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

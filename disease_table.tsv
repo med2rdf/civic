@@ -1,0 +1,183 @@
+disease	doid	URI
+Female Reproductive Organ Cancer	120	disease_120
+Cancer	162	disease_162
+Neuroendocrine Tumor	169	disease_169
+Colon Cancer	219	disease_219
+Colon Adenocarcinoma	234	disease_234
+Hairy Cell Leukemia	285	disease_285
+Systemic Mastocytosis	349	disease_349
+Hepatocellular Carcinoma	684	disease_684
+T-cell Leukemia	715	disease_715
+Neuroblastoma	769	disease_769
+Chronic Leukemia	1036	disease_1036
+Chronic Lymphocytic Leukemia	1040	disease_1040
+Esophageal Carcinoma	1107	disease_1107
+Sarcoma	1115	disease_1115
+Leukemia	1240	disease_1240
+Lung Cancer	1324	disease_1324
+Endometrial Cancer	1380	disease_1380
+Colon Carcinoma	1520	disease_1520
+Head And Neck Carcinoma	1542	disease_1542
+Breast Cancer	1612	disease_1612
+Thyroid Cancer	1781	disease_1781
+Peritoneal Mesothelioma	1788	disease_1788
+Malignant Mesothelioma	1790	disease_1790
+Pancreatic Cancer	1793	disease_1793
+Tumor Of Exocrine Pancreas	1795	disease_1795
+Angiosarcoma	1816	disease_1816
+Melanoma	1909	disease_1909
+Rectum Cancer	1993	disease_1993
+Epithelial Ovarian Cancer	2152	disease_2152
+Chronic Myeloproliferative Disease	2226	disease_2226
+Ovarian Cancer	2394	disease_2394
+Basal Cell Carcinoma	2513	disease_2513
+Prostate Adenocarcinoma	2526	disease_2526
+Hematologic Cancer	2531	disease_2531
+Langerhans-Cell Histiocytosis	2571	disease_2571
+Laryngeal Carcinoma	2600	disease_2600
+Urothelial Carcinoma	2671	disease_2671
+Endometrial Adenocarcinoma	2870	disease_2870
+Endometrial Carcinoma	2871	disease_2871
+Ovarian Granulosa Cell Tumor	2999	disease_2999
+Colon Mucinous Adenocarcinoma	3029	disease_3029
+Glioblastoma Multiforme	3068	disease_3068
+Astrocytoma	3069	disease_3069
+Malignant Glioma	3070	disease_3070
+Supratentorial Glioblastoma Multiforme	3073	disease_3073
+Papillary Adenocarcinoma	3112	disease_3112
+Skin Squamous Cell Carcinoma	3151	disease_3151
+Anaplastic Oligodendroglioma	3181	disease_3181
+Oligodendroglioma	3181	disease_3181
+Thymic Carcinoma	3284	disease_3284
+Chordoma	3302	disease_3302
+Osteosarcoma	3347	disease_3347
+Bone Ewing's Sarcoma	3368	disease_3368
+Ewing Sarcoma	3369	disease_3369
+Liposarcoma	3382	disease_3382
+Scrotum Paget's Disease	3444	disease_3444
+Breast Carcinoma	3459	disease_3459
+Pancreatic Ductal Adenocarcinoma	3498	disease_3498
+Dermatofibrosarcoma Protuberans	3507	disease_3507
+Pseudomyxoma Peritonei	3559	disease_3559
+Meningioma	3565	disease_3565
+Pancreatic Ductal Carcinoma	3587	disease_3587
+Rhabdoid Cancer	3672	disease_3672
+Cervical Adenocarcinoma	3702	disease_3702
+Gastric Adenocarcinoma	3717	disease_3717
+Cervical Squamous Cell Carcinoma	3744	disease_3744
+Esophagus Squamous Cell Carcinoma	3748	disease_3748
+Peutz-Jeghers Syndrome	3852	disease_3852
+Lynch Syndrome	3883	disease_3883
+Lung Carcinoma	3905	disease_3905
+Lung Squamous Cell Carcinoma	3907	disease_3907
+Non-small Cell Lung Carcinoma	3908	disease_3908
+Bronchogenic Lung Adenocarcinoma	3909	disease_3909
+Lung Adenocarcinoma	3910	disease_3910
+Adrenocortical Carcinoma	3948	disease_3948
+Follicular Thyroid Carcinoma	3962	disease_3962
+Thyroid Carcinoma	3963	disease_3963
+Merkel Cell Carcinoma	3965	disease_3965
+Papillary Thyroid Carcinoma	3969	disease_3969
+Thyroid Medullary Carcinoma	3973	disease_3973
+Ovarian Carcinoma	4001	disease_4001
+Bladder Urothelial Carcinoma	4006	disease_4006
+Bladder Carcinoma	4007	disease_4007
+Pancreatic Adenocarcinoma	4074	disease_4074
+Cervical Cancer	4362	disease_4362
+Renal Cell Carcinoma	4450	disease_4450
+Renal Carcinoma	4451	disease_4451
+Papillary Renal Cell Carcinoma	4465	disease_4465
+Renal Clear Cell Carcinoma	4467	disease_4467
+Bile Duct Adenocarcinoma	4896	disease_4896
+Pancreatic Carcinoma	4905	disease_4905
+Esophagus Adenocarcinoma	4914	disease_4914
+Bronchiolo-alveolar Adenocarcinoma	4926	disease_4926
+Intrahepatic Cholangiocarcinoma	4928	disease_4928
+Cholangiocarcinoma	4947	disease_4947
+Bone Marrow Cancer	4960	disease_4960
+Myelofibrosis	4971	disease_4971
+Hepatocellular Fibrolamellar Carcinoma	5015	disease_5015
+Esophageal Cancer	5041	disease_5041
+Plexiform Neurofibroma	5151	disease_5151
+Myxoid Liposarcoma	5363	disease_5363
+Lung Small Cell Carcinoma	5409	disease_5409
+Synovial Sarcoma	5485	disease_5485
+Stomach Carcinoma	5517	disease_5517
+Head And Neck Squamous Cell Carcinoma	5520	disease_5520
+T-cell Acute Lymphoblastic Leukemia	5603	disease_5603
+Gastric Adenosquamous Carcinoma	5635	disease_5635
+Ovarian Serous Cystadenocarcinoma	5746	disease_5746
+Uterine Corpus Serous Adenocarcinoma	5750	disease_5750
+Malignant Peripheral Nerve Sheath Tumor	5940	disease_5940
+Uveal Melanoma	6039	disease_6039
+Inflammatory Breast Carcinoma	6263	disease_6263
+Acral Lentiginous Melanoma	6367	disease_6367
+Invasive Bladder Transitional Cell Carcinoma	6477	disease_6477
+Lung Acinar Adenocarcinoma	6482	disease_6482
+Bone Epithelioid Hemangioma	6610	disease_6610
+Ureter Small Cell Carcinoma	6886	disease_6886
+Precursor B Lymphoblastic Lymphoma/leukemia	7061	disease_7061
+Malignant Pleural Mesothelioma	7474	disease_7474
+Small Cell Carcinoma Of The Ovary Hypercalcemic Type	7651	disease_7651
+Barrett's Adenocarcinoma	7941	disease_7941
+Thyroid Hurthle Cell Carcinoma	8161	disease_8161
+Sezary's Disease	8541	disease_8541
+Chronic Myeloid Leukemia	8552	disease_8552
+Oropharynx Cancer	8557	disease_8557
+Skin Melanoma	8923	disease_8923
+Polycythemia Vera	8997	disease_8997
+Acute Myeloid Leukemia	9119	disease_9119
+Gastrointestinal Stromal Tumor	9253	disease_9253
+Colorectal Cancer	9256	disease_9256
+Multiple Myeloma	9538	disease_9538
+Acute Lymphocytic Leukemia	9952	disease_9952
+Prostate Cancer	10283	disease_10283
+Prostate Carcinoma	10286	disease_10286
+Stomach Cancer	10534	disease_10534
+Lymphoid Leukemia	10747	disease_10747
+Head And Neck Cancer	11934	disease_11934
+Acute Leukemia	12603	disease_12603
+Acoustic Neuroma	12689	disease_12689
+Tuberous Sclerosis	13515	disease_13515
+Malignant Anus Melanoma	14145	disease_14145
+Von Hippel-Lindau Disease	14175	disease_14175
+Malignant Sertoli-Leydig Cell Tumor	0050618	disease_0050618
+Gastrointestinal Neuroendocrine Tumor	0050626	disease_0050626
+Anaplastic Large Cell Lymphoma	0050744	disease_0050744
+Diffuse Large B-cell Lymphoma	0050745	disease_0050745
+Mantle Cell Lymphoma	0050746	disease_0050746
+Peripheral T-cell Lymphoma	0050749	disease_0050749
+T-cell Large Granular Lymphocyte Leukemia	0050751	disease_0050751
+Colorectal Adenocarcinoma	0050861	disease_0050861
+Oral Squamous Cell Carcinoma	0050866	disease_0050866
+Follicular Lymphoma	0050873	disease_0050873
+Parietal Lobe Ependymoma	0050903	disease_0050903
+Salivary Gland Carcinoma	0050904	disease_0050904
+Inflammatory Myofibroblastic Tumor	0050905	disease_0050905
+Myelodysplastic Syndrome	0050908	disease_0050908
+Mucosal Melanoma	0050929	disease_0050929
+Ovarian Serous Carcinoma	0050933	disease_0050933
+Ovarian Clear Cell Carcinoma	0050934	disease_0050934
+Uterine Corpus Endometrial Carcinoma	0050939	disease_0050939
+Estrogen-receptor Positive Breast Cancer	0060075	disease_0060075
+Her2-receptor Positive Breast Cancer	0060079	disease_0060079
+Her2-receptor Negative Breast Cancer	0060080	disease_0060080
+Triple-receptor Negative Breast Cancer	0060081	disease_0060081
+Brain Medulloblastoma	0060105	disease_0060105
+Brain Glioma	0060108	disease_0060108
+Acute Promyelocytic Leukemia	0060318	disease_0060318
+NUT Midline Carcinoma	0060463	disease_0060463
+Chuvash Polycythemia	0060474	disease_0060474
+Adult B-Lymphoblastic Leukemia	0060592	disease_0060592
+Atypical Chronic Myeloid Leukemia	0060597	disease_0060597
+Myeloma	0070004	disease_0070004
+"Myeloid And Lymphoid Neoplasms With Eosinophilia And Abnormalities Of PDGFRA, PDGFRB, And FGFR1"	0080164	disease_0080164
+Hepatocellular Mixed Fibrolamellar Carcinoma	0080182	disease_0080182
+Chronic Neutrophilic Leukemia	0080187	disease_0080187
+Chronic Myelomonocytic Leukemia	0080188	disease_0080188
+Waldenström's Macroglobulinemia		disease_Waldenstrom%27s_Macroglobulinemia
+Epithelioid Hemangioendothelioma		disease_Epithelioid_Hemangioendothelioma
+Pericytoma		disease_Pericytoma
+Endometrial Hyperplasia		disease_Endometrial_Hyperplasia
+PTEN Harmatoma Tumor Syndrome		disease_PTEN_Harmatoma_Tumor_Syndrome
+Desmoid Fibromatosis		disease_Desmoid_Fibromatosis

@@ -1,0 +1,105 @@
+Civic	SequenceOntology
+3_prime_UTR_truncation	SO_0002015
+3_prime_UTR_variant	SO_0001624
+5_prime_UTR_exon_variant	SO_0002092
+5_prime_UTR_variant	SO_0001623
+amino_acid_deletion	SO_0001604
+coding_sequence_variant	SO_0001580
+coding_transcript_	SO_0001619
+coding_transcript_variant	SO_0002096
+copy_number_change	SO_0001563
+disruptive_inframe_deletion	SO_0001826
+DNA_binding_site	SO_0001429
+dominant_negative_variant	SO_0002052
+exon_loss_variant	SO_0001572
+exon_variant	SO_0001791
+feature_truncation	SO_0001906
+frameshift_elongation	SO_0001909
+frameshift_truncation	SO_0001910
+frameshift_variant	SO_0001589
+gain_of_function_variant	SO_0002053
+gene_fusion	SO_0001565
+gene_silenced_by_DNA_methylation	SO_0000129
+gene_variant	SO_0001564
+inframe_deletion	SO_0001822
+inframe_indel	SO_0001820
+inframe_insertion	SO_0001821
+inframe_variant	SO_0001650
+insertion	SO_0000667
+intron_variant	SO_0001627
+loss_of_function_variant	SO_0002054
+loss_of_heterozygosity	SO_0001786
+microsatellite	SO_0000289
+minus_1_frameshift	SO_0000866
+minus_1_frameshift_variant	SO_0001592
+missense_variant	SO_0001583
+nonsynonymous_variant	SO_0001992
+plus_1_frameshift_variant	SO_0001594
+polymorphic_sequence_variant	SO_0001025
+protein_altering_variant	SO_0001818
+regulatory_region_variant	SO_0001566
+short_tandem_repeat_variation	SO_0002096
+silent_mutation	SO_0001017
+SNP	SO_0000694
+splice_acceptor_variant	SO_0001574
+splice_donor_variant	SO_0001575
+start_lost	SO_0002012
+stop_gained	SO_0001587
+stop_lost	SO_0001578
+synonymous_variant	SO_0001819
+transcript_ablation	SO_0001893
+transcript_amplification	SO_0001889
+transcript_fusion	SO_0001886
+transcript_regulatory_region_fusion	SO_0001890
+transcript_variant	SO_0001576
+transcription_variant	SO_0001549
+wild_type	SO_0000817
+coding_transcript_intron_variant	SO_0001969	
+conservative_inframe_deletion	SO_0001825
+direct_tandem_duplication	SO_1000039
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

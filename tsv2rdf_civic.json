@@ -1,0 +1,22 @@
+{
+	"input_file":{
+		"evidence_summaries":"nightly-ClinicalEvidenceSummaries.tsv",
+		"variant_summaries":"nightly-VariantSummaries.tsv"
+	},
+	"template":{
+		"prefix":"templ_civic.ttl.prefix",
+		"body":"templ_civic.ttl",
+        "evidence":"templ_civic.ttl.evi",
+		"variant":"templ_civic.ttl.variant",
+		"disease":"templ_civic.ttl.disease",
+		"drug":"templ_civic.ttl.drug"
+	},
+	"conversion_tables":{
+		"sequence_ontology":"so_table.tsv",
+		"drugs":"drug_table.tsv",
+		"disease":"disease_table.tsv"
+	},
+	"output_file":"civic_sample.ttl",
+	"data_path":"data_c"
+
+}

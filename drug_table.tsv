@@ -1,0 +1,360 @@
+DrugName	StandardName	DrugLabel
+Quizartinib	AC220	AC220
+Alectinib	CH5424802	CH5424802
+CH5424802	CH5424802	CH5424802
+Alpelisib	NVP-BYL719	NVP-BYL719
+NVP-BYL719	NVP-BYL719	NVP-BYL719
+BMS-387032	SNS-032	SNS-032
+SNS-032	SNS-032	SNS-032
+Enasidenib	AG-221	AG-221
+AG-221	AG-221	AG-221
+BYL719	Alpelisib	Alpelisib
+Alpelisib	Alpelisib	Alpelisib
+Selumetinib	AZD6244	AZD6244
+AZD6244	AZD6244	AZD6244
+Lestaurtinib	CEP-701	CEP-701
+CEP-701	CEP-701	CEP-701
+BEZ235	Dactolisib	Dactolisib
+NVP-BEZ235	Dactolisib	Dactolisib
+Dactolisib	Dactolisib	Dactolisib
+Taselisib	GDC-0032	GDC-0032
+GDC-0032	GDC-0032	GDC-0032
+Omipalisib	GSK2126458	GSK2126458
+GSK2126458	GSK2126458	GSK2126458
+OSI-906	Linsitinib	Linsitinib
+Linsitinib	Linsitinib	Linsitinib
+Larotrectinib	LOXO-101	LOXO-101
+LOXO-101	LOXO-101	LOXO-101
+Binimetinib	MEK162	MEK162
+MEK162	MEK162	MEK162
+Palbociclib	PD0332991	PD0332991
+PD0332991	PD0332991	PD0332991
+XL147	Pilaralisib	Pilaralisib
+Pilaralisib	Pilaralisib	Pilaralisib
+Vorinostat	SAHA	SAHA
+SAHA	SAHA	SAHA
+Rapamycin	Sirolimus	Sirolimus
+Sirolimus	Sirolimus	Sirolimus
+Dovitinib Dilactic Acid 	TKI258_Dilactic_Acid	TKI258 Dilactic Acid
+TKI258 Dilactic Acid	TKI258_Dilactic_Acid	TKI258 Dilactic Acid
+Trichostatin A	TSA	TSA
+TSA	TSA	TSA
+"Bis-2-[5-(phenylacetamide)-1,3,4-thiadiazol-2-yl]ethyl Sulfide"	Bis-2-_5-_phenylacetamide_-1_3_4-thiadiazol-2-yl_ethyl_Sulfide	"Bis-2-[5-(phenylacetamide)-1,3,4-thiadiazol-2-yl]ethyl Sulfide"
+"2,4-pyrimidinediamine"	2_4-pyrimidinediamine	"2,4-pyrimidinediamine"
+ARRY-142886	ARRY-142886	ARRY-142886
+17-AAG	17-AAG	17-AAG
+17-DMAG	17-DMAG	17-DMAG
+4-hydroxytamoxifen	4-hydroxytamoxifen	4-hydroxytamoxifen
+5-FU	5-FU	5-FU
+5-Fluoropyrimidine	5-Fluoropyrimidine	5-Fluoropyrimidine
+5-fluorouracil	5-fluorouracil	5-fluorouracil
+6-mercaptopurine	6-mercaptopurine	6-mercaptopurine
+6-thioguanine	6-thioguanine	6-thioguanine
+9F7-F11	9F7-F11	9F7-F11
+A66	A66	A66
+ACLY SiRNA	ACLY_SiRNA	ACLY SiRNA
+AEB071	AEB071	AEB071
+AEE788	AEE788	AEE788
+AG-120	AG-120	AG-120
+AG1296	AG1296	AG1296
+AGI-5198	AGI-5198	AGI-5198
+AKT3 Inhibitor	AKT3_Inhibitor	AKT3 Inhibitor
+AKTi-1/2	AKTi-1_2	AKTi-1/2
+AMGMDS3	AMGMDS3	AMGMDS3
+ARN-509	ARN-509	ARN-509
+ARRY-470	ARRY-470	ARRY-470
+ARS-853	ARS-853	ARS-853
+AUY922	AUY922	AUY922
+AV-203	AV-203	AV-203
+AZ628	AZ628	AZ628
+AZ909	AZ909	AZ909
+AZD-5363	AZD-5363	AZD-5363
+AZD1480	AZD1480	AZD1480
+AZD3463	AZD3463	AZD3463
+AZD4547	AZD4547	AZD4547
+AZD5363	AZD5363	AZD5363
+AZD5438	AZD5438	AZD5438
+AZD7762	AZD7762	AZD7762
+AZD8055	AZD8055	AZD8055
+AZD8186	AZD8186	AZD8186
+Abemaciclib	Abemaciclib	Abemaciclib
+Abiraterone	Abiraterone	Abiraterone
+Adjuvant Chemotherapy	Adjuvant_Chemotherapy	Adjuvant Chemotherapy
+Ado-trastuzumab Emtansine	Ado-trastuzumab_Emtansine	Ado-trastuzumab Emtansine
+Adoptive T-cell Transfer	Adoptive_T-cell_Transfer	Adoptive T-cell Transfer
+Afatinib	Afatinib	Afatinib
+Alectinib	Alectinib	Alectinib
+Alemtuzumab	Alemtuzumab	Alemtuzumab
+Alisertib	Alisertib	Alisertib
+All-trans Retinoic Acid	All-trans_Retinoic_Acid	All-trans Retinoic Acid
+Aminoglutethimide	Aminoglutethimide	Aminoglutethimide
+Amrubicin	Amrubicin	Amrubicin
+Amuvatinib	Amuvatinib	Amuvatinib
+Anthracycline	Anthracycline	Anthracycline
+Anti-CD123	Anti-CD123	Anti-CD123
+Anti-CD33	Anti-CD33	Anti-CD33
+Anti-EGFR Monoclonal Antibody	Anti-EGFR_Monoclonal_Antibody	Anti-EGFR Monoclonal Antibody
+Anti-ERBB3 Agents	Anti-ERBB3_Agents	Anti-ERBB3 Agents
+Antiangiogenic Therapy	Antiangiogenic_Therapy	Antiangiogenic Therapy
+Apitolisib	Apitolisib	Apitolisib
+Arabinosylguanine	Arabinosylguanine	Arabinosylguanine
+Aromatase Inhibitor	Aromatase_Inhibitor	Aromatase Inhibitor
+Arsenic Trioxide	Arsenic_Trioxide	Arsenic Trioxide
+Aspirin	Aspirin	Aspirin
+Atezolizumab	Atezolizumab	Atezolizumab
+Avelumab	Avelumab	Avelumab
+BAY 86-9766	BAY_86-9766	BAY 86-9766
+BEZ235	BEZ235	BEZ235
+BGJ-398	BGJ-398	BGJ-398
+BGJ398	BGJ398	BGJ398
+BMN-673	BMN-673	BMN-673
+BMS-354825	BMS-354825	BMS-354825
+Belinostat	Belinostat	Belinostat
+Bevacizumab	Bevacizumab	Bevacizumab
+Bicalutamide	Bicalutamide	Bicalutamide
+Binimetinib	Binimetinib	Binimetinib
+Bortezomib	Bortezomib	Bortezomib
+Brigatinib	Brigatinib	Brigatinib
+Buparlisib	Buparlisib	Buparlisib
+CBL0137	CBL0137	CBL0137
+CH5132799	CH5132799	CH5132799
+CH5424802	CH5424802	CH5424802
+CP724714	CP724714	CP724714
+CTLA-4 Antibody	CTLA-4_Antibody	CTLA-4 Antibody
+CX-3543	CX-3543	CX-3543
+CX-5461	CX-5461	CX-5461
+Cabazitaxel	Cabazitaxel	Cabazitaxel
+Cabozantinib	Cabozantinib	Cabozantinib
+Canertinib	Canertinib	Canertinib
+Capecitabine	Capecitabine	Capecitabine
+Capecitibine	Capecitibine	Capecitibine
+Capmatinib	Capmatinib	Capmatinib
+Carboplatin	Carboplatin	Carboplatin
+Carmustine	Carmustine	Carmustine
+Cc-223	Cc-223	Cc-223
+Cediranib	Cediranib	Cediranib
+Ceritinib	Ceritinib	Ceritinib
+Cetuximab	Cetuximab	Cetuximab
+Chemotherapy	Chemotherapy	Chemotherapy
+Chlorambucil	Chlorambucil	Chlorambucil
+Cisplatin	Cisplatin	Cisplatin
+Cixutumumab	Cixutumumab	Cixutumumab
+Cobimetinib	Cobimetinib	Cobimetinib
+Conatumumab	Conatumumab	Conatumumab
+Crenolanib	Crenolanib	Crenolanib
+Crizotinib	Crizotinib	Crizotinib
+Cyclophosphamide	Cyclophosphamide	Cyclophosphamide
+Cyproterone Acetate	Cyproterone_Acetate	Cyproterone Acetate
+Cytarabine	Cytarabine	Cytarabine
+Dabrafenib	Dabrafenib	Dabrafenib
+Dacarbazine	Dacarbazine	Dacarbazine
+Dacomitinib	Dacomitinib	Dacomitinib
+Dasatinib	Dasatinib	Dasatinib
+Daunorubicin	Daunorubicin	Daunorubicin
+Decitabine	Decitabine	Decitabine
+Dinaciclib	Dinaciclib	Dinaciclib
+Docetaxel	Docetaxel	Docetaxel
+Dovitinib	Dovitinib	Dovitinib
+Doxorubicin	Doxorubicin	Doxorubicin
+Durvalumab	Durvalumab	Durvalumab
+EAP Protocol	EAP_Protocol	EAP Protocol
+EGFR Inhibitor	EGFR_Inhibitor	EGFR Inhibitor
+EPZ-6438	EPZ-6438	EPZ-6438
+Enasidenib	Enasidenib	Enasidenib
+Entrectinib	Entrectinib	Entrectinib
+Enzalutamide	Enzalutamide	Enzalutamide
+Enzastaurin	Enzastaurin	Enzastaurin
+Epirubicin	Epirubicin	Epirubicin
+Erlotinib	Erlotinib	Erlotinib
+Everolimus	Everolimus	Everolimus
+Exemestane	Exemestane	Exemestane
+FGF/VEGF Receptor Tyrosine Kinase Inhibitor	FGF_VEGF_Receptor_Tyrosine_Kinase_Inhibitor	FGF/VEGF Receptor Tyrosine Kinase Inhibitor
+FOLFIRI Regimen	FOLFIRI_Regimen	FOLFIRI Regimen
+FOLFOX4	FOLFOX4	FOLFOX4
+Farnesylthiosalicylic Acid	Farnesylthiosalicylic_Acid	Farnesylthiosalicylic Acid
+Fasudil	Fasudil	Fasudil
+Flavopiridol	Flavopiridol	Flavopiridol
+Flutamide	Flutamide	Flutamide
+FolfoxProtocol	FolfoxProtocol	FolfoxProtocol
+Foretinib	Foretinib	Foretinib
+Fulvestrant	Fulvestrant	Fulvestrant
+G-573	G-573	G-573
+G007-LK	G007-LK	G007-LK
+GDC-0623	GDC-0623	GDC-0623
+GDC-0879	GDC-0879	GDC-0879
+GDC0941	GDC0941	GDC0941
+GNE-617	GNE-617	GNE-617
+GSK126	GSK126	GSK126
+GSK2141795	GSK2141795	GSK2141795
+GSK321	GSK321	GSK321
+GW-2580	GW-2580	GW-2580
+Ganetespib	Ganetespib	Ganetespib
+Gefitinib	Gefitinib	Gefitinib
+Gemcitabine	Gemcitabine	Gemcitabine
+Hormone Therapy	Hormone_Therapy	Hormone Therapy
+I-BET151	I-BET151	I-BET151
+IGF1R Monoclonal Antibody	IGF1R_Monoclonal_Antibody	IGF1R Monoclonal Antibody
+IMG-2005-5	IMG-2005-5	IMG-2005-5
+IMO	IMO	IMO
+IPI-504	IPI-504	IPI-504
+IRAK-1/4 Inhibitor	IRAK-1_4_Inhibitor	IRAK-1/4 Inhibitor
+Ibrutinib	Ibrutinib	Ibrutinib
+Idarubicin	Idarubicin	Idarubicin
+Idelalisib	Idelalisib	Idelalisib
+Imatinib	Imatinib	Imatinib
+Induction Therapy	Induction_Therapy	Induction Therapy
+Ipatasertib	Ipatasertib	Ipatasertib
+Ipilimumab	Ipilimumab	Ipilimumab
+Irbesartan	Irbesartan	Irbesartan
+Irinotecan	Irinotecan	Irinotecan
+Ixazomib	Ixazomib	Ixazomib
+JNJ-42756493	JNJ-42756493	JNJ-42756493
+JQ-1	JQ-1	JQ-1
+JQ1	JQ1	JQ1
+JQ1 Compound	JQ1_Compound	JQ1 Compound
+JSI-124	JSI-124	JSI-124
+JW55	JW55	JW55
+KU-0060648	KU-0060648	KU-0060648
+L-Folinic Acid	L-Folinic_Acid	L-Folinic Acid
+L-asparaginase	L-asparaginase	L-asparaginase
+LBH-589	LBH-589	LBH-589
+LDE225	LDE225	LDE225
+LGK974	LGK974	LGK974
+LY2835219	LY2835219	LY2835219
+LY294002	LY294002	LY294002
+LY3009120	LY3009120	LY3009120
+Lapatinib	Lapatinib	Lapatinib
+Lenalidomide	Lenalidomide	Lenalidomide
+Letrozole	Letrozole	Letrozole
+Linsitinib	Linsitinib	Linsitinib
+Lomustine	Lomustine	Lomustine
+Lonafarnib	Lonafarnib	Lonafarnib
+Lorlatinib	Lorlatinib	Lorlatinib
+MC1568	MC1568	MC1568
+MEDI0680	MEDI0680	MEDI0680
+MEDI4736	MEDI4736	MEDI4736
+MEK Inhibitor	MEK_Inhibitor	MEK Inhibitor
+MK-2206	MK-2206	MK-2206
+MLN0128	MLN0128	MLN0128
+MLN518	MLN518	MLN518
+MTOR Inhibitors	MTOR_Inhibitors	MTOR Inhibitors
+Melphalan	Melphalan	Melphalan
+Metformin	Metformin	Metformin
+Methotrexate	Methotrexate	Methotrexate
+Midostaurin	Midostaurin	Midostaurin
+Mitomycin C	Mitomycin_C	Mitomycin C
+Mocetinostat	Mocetinostat	Mocetinostat
+Monomethyl Auristatin E	Monomethyl_Auristatin_E	Monomethyl Auristatin E
+Motesanib	Motesanib	Motesanib
+NOTCH1 Antibody	NOTCH1_Antibody	NOTCH1 Antibody
+NSC348884	NSC348884	NSC348884
+NU7441	NU7441	NU7441
+Nelarabine	Nelarabine	Nelarabine
+Neratinib	Neratinib	Neratinib
+Nicotinamide	Nicotinamide	Nicotinamide
+Nilotinib	Nilotinib	Nilotinib
+Nilutamide	Nilutamide	Nilutamide
+Nimotuzumab	Nimotuzumab	Nimotuzumab
+Nintedanib	Nintedanib	Nintedanib
+Nivolumab	Nivolumab	Nivolumab
+Nutlin-3	Nutlin-3	Nutlin-3
+Nutlin-3a	Nutlin-3a	Nutlin-3a
+O(6)-benzylguanine	O_6_-benzylguanine	O(6)-benzylguanine
+OICR-9429	OICR-9429	OICR-9429
+Olaparib	Olaparib	Olaparib
+Onartuzumab	Onartuzumab	Onartuzumab
+Osimertinib	Osimertinib	Osimertinib
+Oxaliplatin	Oxaliplatin	Oxaliplatin
+PD-1 Inhibitor	PD-1_Inhibitor	PD-1 Inhibitor
+PD-180970	PD-180970	PD-180970
+PD-L1 Antibody	PD-L1_Antibody	PD-L1 Antibody
+PD0325901	PD0325901	PD0325901
+PD0332991	PD0332991	PD0332991
+PD173074	PD173074	PD173074
+PD184352	PD184352	PD184352
+PF 00299804	PF_00299804	PF 00299804
+PI103	PI103	PI103
+PI3K Inhibitor	PI3K_Inhibitor	PI3K Inhibitor
+PLATINUM	PLATINUM	PLATINUM
+PLX4720	PLX4720	PLX4720
+PP242	PP242	PP242
+PSI	PSI	PSI
+Paclitaxel	Paclitaxel	Paclitaxel
+Palbociclib	Palbociclib	Palbociclib
+Panitumumab	Panitumumab	Panitumumab
+Patritumab	Patritumab	Patritumab
+Pazopanib	Pazopanib	Pazopanib
+Pegylated IFN-alpha-2a	Pegylated_IFN-alpha-2a	Pegylated IFN-alpha-2a
+Pembrolizumab	Pembrolizumab	Pembrolizumab
+Pemetrexed	Pemetrexed	Pemetrexed
+Perifosine	Perifosine	Perifosine
+Pertuzumab	Pertuzumab	Pertuzumab
+Pictilisib	Pictilisib	Pictilisib
+Pomalidomide	Pomalidomide	Pomalidomide
+Ponatinib	Ponatinib	Ponatinib
+Prexasertib	Prexasertib	Prexasertib
+Procarbazine	Procarbazine	Procarbazine
+Quizartinib	Quizartinib	Quizartinib
+R1507	R1507	R1507
+RAF265	RAF265	RAF265
+RG7112	RG7112	RG7112
+RG7356	RG7356	RG7356
+RO4987655	RO4987655	RO4987655
+Radiation	Radiation	Radiation
+Radioactive Iodine	Radioactive_Iodine	Radioactive Iodine
+Raltitrexed	Raltitrexed	Raltitrexed
+RapaLink-1	RapaLink-1	RapaLink-1
+Refametinib	Refametinib	Refametinib
+Regorafenib	Regorafenib	Regorafenib
+Ribociclib	Ribociclib	Ribociclib
+Ridaforolimus	Ridaforolimus	Ridaforolimus
+Rilotumumab	Rilotumumab	Rilotumumab
+Rindopepimut	Rindopepimut	Rindopepimut
+Rociletinib	Rociletinib	Rociletinib
+Rucaparib	Rucaparib	Rucaparib
+Ruxolitinib	Ruxolitinib	Ruxolitinib
+SB202190	SB202190	SB202190
+SCH772984	SCH772984	SCH772984
+SGK1-Inh	SGK1-Inh	SGK1-Inh
+SGX523	SGX523	SGX523
+SN-38	SN-38	SN-38
+SU-5402	SU-5402	SU-5402
+SU11248	SU11248	SU11248
+SU5614	SU5614	SU5614
+Salinomycin	Salinomycin	Salinomycin
+Saridegib	Saridegib	Saridegib
+Savolitinib	Savolitinib	Savolitinib
+Sorafenib	Sorafenib	Sorafenib
+Spliceostatin A	Spliceostatin_A	Spliceostatin A
+Stattic	Stattic	Stattic
+Staurosporine	Staurosporine	Staurosporine
+Sunitinib	Sunitinib	Sunitinib
+Sym004	Sym004	Sym004
+TAE684	TAE684	TAE684
+TAK-733	TAK-733	TAK-733
+TG101348	TG101348	TG101348
+TIM-3 Inhibitor	TIM-3_Inhibitor	TIM-3 Inhibitor
+Talazoparib	Talazoparib	Talazoparib
+Tamoxifen	Tamoxifen	Tamoxifen
+Taxane	Taxane	Taxane
+Tegafur	Tegafur	Tegafur
+Temozolomide	Temozolomide	Temozolomide
+Temsirolimus	Temsirolimus	Temsirolimus
+Tgx 221	Tgx_221	Tgx 221
+Topotecan	Topotecan	Topotecan
+Trametinib	Trametinib	Trametinib
+Trametinib DMSO	Trametinib_DMSO	Trametinib DMSO
+Trastuzumab	Trastuzumab	Trastuzumab
+Trastuzumab Emtansine	Trastuzumab_Emtansine	Trastuzumab Emtansine
+UNC1062	UNC1062	UNC1062
+VEGF Inhibition	VEGF_Inhibition	VEGF Inhibition
+VTX-11e	VTX-11e	VTX-11e
+Valproic Acid	Valproic_Acid	Valproic Acid
+Vandetanib	Vandetanib	Vandetanib
+Vemurafenib	Vemurafenib	Vemurafenib
+Vincristine	Vincristine	Vincristine
+Vinorelbine	Vinorelbine	Vinorelbine
+Vismodegib	Vismodegib	Vismodegib
+WHI-P154	WHI-P154	WHI-P154
+WYE354	WYE354	WYE354
+WZ4002	WZ4002	WZ4002

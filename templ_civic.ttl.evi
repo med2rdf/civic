@@ -1,0 +1,23 @@
+
+civice:{{message.evidence_id}}
+    dct:references pbm:{{message.pubmed_id}} ;
+    civico:citation "{{message.citation}}"^^xsd:string ;
+    {%- if message.has_rating %}
+    civico:rating "{{message.rating}}"^^xsd:string ;
+    {%- endif %}
+    civico:evidenceStatus "{{message.evidence_status}}"^^xsd:string ;
+    civico:evidenceType "{{message.evidence_type}}"^^xsd:string ;
+    {%- if message.has_evidence_direction %}
+    civico:evidenceDirection "{{message.evidence_direction}}"^^xsd:string ;
+    {%- endif %}
+    {%- if message.has_clinical_significance %}
+    civico:clinicalSignificance "{{message.clinical_significance}}"^^xsd:string ;
+    {%- endif %}
+    civico:evidenceLevel "{{message.evidence_level}}"^^xsd:string ;
+    {%- if message.has_drugs %}
+    civico:drug_description "{{message.drug_description}}"^^xsd:string ; 
+    civico:drug {% for Drug in message.Drugs %}{% if Drug.comma > 0 %},{% endif %}civic:drug_{{Drug.name}}{% endfor %} ;
+    {%- endif %}
+    civico:evidenceStatement "{{message.evidence_statement}}"^^xsd:string ;
+    a civico:Evidence, m2r:Evidence .
+

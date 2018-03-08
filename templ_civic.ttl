@@ -1,0 +1,8 @@
+
+civicg:{{message.gene_id}}
+    rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/gene/{{message.entrez_id}}> ;
+    civico:geneID "{{message.gene_id}}"^^xsd:string ;
+    m2r:variation {% for Variant in message.Variants %}{% if Variant.comma > 0 %},{% endif %}civicv:{{Variant.variant_id}}{% endfor %} ;
+    civico:geneName "{{message.gene}}"^^xsd:string ;
+    a civico:Gene, m2r:Gene .
+
