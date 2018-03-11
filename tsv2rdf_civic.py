@@ -62,6 +62,7 @@ class Variant(object):
         self.has_ensembl_version = False
         self.has_variant_origin = False
         self.has_variant_summary = False
+        self.has_variant_groups = False
         self.has_start = False
         self.has_gene_id = False
         self.has_doid = False
@@ -71,6 +72,7 @@ class Variant(object):
 
         self.variant_types=variant_row.variant_types.values[0]
         self.hgvs_expressions = variant_row.hgvs_expressions.values[0]
+        self.variant_groups = variant_row.variant_groups.values[0]
 
         list_variant_types = map(lambda x: so_table_dic[x]  , self.variant_types.split(','))
 
@@ -84,13 +86,12 @@ class Variant(object):
         else:
             self.has_evidence = True
 
-            self.Publications = [ PublicationId(comma, row) for comma, row in evidence_rows.iterrows()]
+            self.Publications = [ PublicationId(comma, row, disease_table_dic) for comma, row in evidence_rows.iterrows()]
 
             #Delete duplicate rows
             evidence_row = evidence_rows.drop_duplicates(subset=['variant_id'], inplace=False )
             evidence_row = evidence_row.reset_index(drop=True)    #Reset index(0 origin)
 
-            self.disease_code = disease_table_dic[evidence_row.disease.values[0]]
             self.variant_origin=evidence_row.variant_origin.values[0]      
             self.variant_summary=evidence_row.variant_summary.values[0].replace('"','\\"')
             
@@ -128,19 +129,31 @@ class Variant(object):
             wk_df = evidence_rows.drop_duplicates(subset=['doid'], inplace=False )
             #wk_df = wk_df[~wk_df['doid'].isnull()].reset_index(drop=True)
             
-            self.Doids = []
-            comma = 0
-            for doid in evidence_rows.drop_duplicates(subset=['doid'], inplace=False )['doid']:
-                if len(str(doid)) != 0: 
-                    self.Doids.append(Doid(comma, doid))
-                    comma +=1
-                else:
-                    pass
 
-            if len(self.Doids) != 0:self.has_doid = True
+            evidence_rows_uniq = evidence_rows.drop_duplicates(['disease'])
+            self.Disease = [ Disease(comma, row, disease_table_dic) for comma, row in evidence_rows_uniq.iterrows()]
+
+            '''
+            evidence_rows_uniq = evidence_rows.drop_duplicates(['disease'])
+            comma = 0
+            for i, row in evidence_rows_uniq.iterrows():
+                msgObject = Disease(0, row, disease_table_dic)
+                comma +=1
+            '''
+
+            '''
+            self.Disease = []
+            comma = 0
+            for row in evidence_rows.iterrows():
+                self.Disease.append(Disease(comma, row, disease_table_dic))
+                comma +=1
+            '''
+
+            #if len(self.Doids) != 0:self.has_doid = True
             if len(self.variant_types) != 0:self.has_variant_types = True
             if len(self.reference_bases) != 0:self.has_reference_bases = True
             if len(self.variant_bases) != 0:self.has_variant_bases = True
+            if len(self.variant_groups) != 0:self.has_variant_groups = True
             if len(self.reference_build) != 0:self.has_reference_build = True
             if len(self.representative_transcript) != 0:self.has_representative_transcript = True
             if len(self.ensembl_version) != 0:self.has_ensembl_version = True
@@ -163,7 +176,7 @@ class VariantType(object):
         return
 
 class PublicationId(object):
-    def __init__(self, comma, row):
+    def __init__(self, comma, row, disease_table_dic):
         '''
         @param comma: Variables for controlling output of commas when outputting multiple publications
         @summary: Store multiple evidence_id and doid in the Publications object
@@ -173,7 +186,10 @@ class PublicationId(object):
         self.comma = comma      # 0: No comma >1: Comma present
         self.evidence_id=row.evidence_id
         self.doid=formatter(row.doid)
-        
+        self.disease_code = disease_table_dic[row.disease]
+
+        logger.info("%s\t%s" % (row.disease, self.disease_code))
+
         if len(self.doid) != 0:
             self.has_doid = True
 
@@ -229,10 +245,14 @@ class Doid(object):
         return
 
 class Disease(object):
-    def __init__(self, row, disease_table_dic):
+    def __init__(self, comma, row, disease_table_dic):
         self.has_doid = False
 
+        self.comma = comma      # 0: No comma >1: Comma present
         self.disease_code = disease_table_dic[row.disease]
+
+        #logger.info("%s\t%s" % (row.disease, self.disease_code))
+
         self.doid = formatter(row.doid)
         self.disease = row.disease.decode('utf-8')
 
@@ -369,7 +389,7 @@ def main(fw, template, evidence_summaries, variant_summaries, conversion_tables 
 
     evidenceDF_selected = evidenceDF.drop_duplicates(['disease'])
     for i, row in evidenceDF_selected.iterrows():
-        msgObject = Disease(row, disease_table_dic)
+        msgObject = Disease(0, row, disease_table_dic)
 
         namespace = dict(message=msgObject)
         FeedContent = imageTemplate.render(namespace).encode('utf-8')
@@ -462,9 +482,6 @@ if __name__ == '__main__':
     if os.path.exists(conversion_tables['drugs']) != True:
         conversion_tables['drugs'] = os.path.join(EXEC_PATH, conversion_tables['drugs'])
         logger.info("Set conversion_tables file path: %s" % conversion_tables['drugs'])
-    if os.path.exists(conversion_tables['disease']) != True:
-        conversion_tables['disease'] = os.path.join(EXEC_PATH, conversion_tables['disease'])
-        logger.info("Set conversion_tables file path: %s" % conversion_tables['disease'])
 
     if os.path.exists(data_path) != True:
         data_path = os.path.join(MOUNT_PATH, data_path)

@@ -30,11 +30,9 @@ civicv:{{message.variant_id}}                 # so:gene_fusion
     civico:variantSummary "{{message.variant_summary}}"^^xsd:string ;
 {%- endif %}
     civico:variantID "{{message.variant_id}}"^^xsd:string ;
-    {% if message.has_doid %}m2r:disease {% for Doid in message.Doids %}{% if Doid.comma > 0 %},{% endif %}{% if Doid.has_doid %}civic:{{message.disease_code}}{% endif %}{% endfor %} ;{% endif %}
-{%- if message.has_variant_summary %}
-{%- if message.has_gene_id %}
-    civico:variantGroups <https://civic.genome.wustl.edu/events/genes/{{message.gene_id}}/summary/variantGroups/{{message.variant_id}}/summary#variant-group> ;
-{%- endif %}
+    m2r:disease {% for Disease in message.Disease %}{% if Disease.comma > 0 %},{% endif %}civic:{{Disease.disease_code}}{% endfor %} ;
+{%- if message.has_variant_groups %}
+    civico:variantGroups "{{message.variant_groups}}"^^xsd:string ;
 {%- endif %}   
     a {% if message.has_variant_types %}{% for VariantType in message.VariantTypes %}{% if VariantType.comma > 0 %},{% endif %}obo:{{VariantType.variant_type}}{% endfor %}, {% endif %}m2r:Variation .
 
@@ -111,14 +109,12 @@ civicv:{{message.variant_id}}
     {%- if message.has_variant_summary %}
     civico:variantSummary "{{message.variant_summary}}"^^xsd:string ;
     {%- endif %}
-    {%- if message.has_doid %}
-    m2r:disease {% for Doid in message.Doids %}{% if Doid.comma > 0 %},{% endif %}{% if Doid.has_doid %}civic:{{message.disease_code}}{% endif %}{% endfor %} ;
+    {%- if message.has_evidence  %}
+    m2r:disease {% for Disease in message.Disease %}{% if Disease.comma > 0 %},{% endif %}civic:{{Disease.disease_code}}{% endfor %} ;
     {%- endif %}
     civico:variantID "{{message.variant_id}}"^^xsd:string ;
-    {%- if message.has_variant_summary %}
-    {%- if message.has_gene_id %}
-    civico:variantGroups <https://civic.genome.wustl.edu/events/genes/{{message.gene_id}}/summary/variantGroups/{{message.variant_id}}/summary#variant-group> ;
-    {%- endif %}
+    {%- if message.has_variant_groups %}
+    civico:variantGroups "{{message.variant_groups}}"^^xsd:string ;
     {%- endif %}
     a {% if message.has_variant_types %}{% for VariantType in message.VariantTypes %}{% if VariantType.comma > 0 %},{% endif %}obo:{{VariantType.variant_type}}{% endfor %}, {% endif %}m2r:Variation .
 {% endif %}
@@ -126,10 +122,8 @@ civicv:{{message.variant_id}}
 {%- for Publication in message.Publications %}
 civic:statement_{{message.variant_id}}_{{Publication.evidence_id}}
     rdf:subject civicv:{{message.variant_id}} ;
-    {%- if Publication.has_doid %}
     rdf:property m2r:disease ;
-    rdf:object civic:{{message.disease_code}} ;
-    {%- endif %}
+    rdf:object civic:{{Publication.disease_code}} ;
     m2r:evidence civice:{{Publication.evidence_id}} ;
     a rdf:Statement .
 {% endfor %}
