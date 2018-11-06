@@ -74913,1468 +74913,1468 @@ civic:drug_
     rdfs:label "" ;
     a m2r:Drug .
 
-civic:drug_Lomustine
-    rdfs:label "Lomustine" ;
-    a m2r:Drug .
-
-civic:drug_G-573
-    rdfs:label "G-573" ;
-    a m2r:Drug .
-
-civic:drug_AZD4547
-    rdfs:label "AZD4547" ;
-    a m2r:Drug .
-
-civic:drug_Chemotherapy
-    rdfs:label "Chemotherapy" ;
-    a m2r:Drug .
-
-civic:drug_PLX4720
-    rdfs:label "PLX4720" ;
-    a m2r:Drug .
-
-civic:drug_Alpelisib%28NVP-BYL719%29
-    rdfs:label "Alpelisib (NVP-BYL719)" ;
-    a m2r:Drug .
-
-civic:drug_Anti-CD33
-    rdfs:label "Anti-CD33" ;
-    a m2r:Drug .
-
-civic:drug_Ixazomib
-    rdfs:label "Ixazomib" ;
-    a m2r:Drug .
-
-civic:drug_Aspirin
-    rdfs:label "Aspirin" ;
-    a m2r:Drug .
-
-civic:drug_I-BET151
-    rdfs:label "I-BET151" ;
-    a m2r:Drug .
-
-civic:drug_Everolimus
-    rdfs:label "Everolimus" ;
-    a m2r:Drug .
-
-civic:drug_Arabinosylguanine
-    rdfs:label "Arabinosylguanine" ;
-    a m2r:Drug .
-
-civic:drug_Lenalidomide
-    rdfs:label "Lenalidomide" ;
-    a m2r:Drug .
-
-civic:drug_Binimetinib
-    rdfs:label "Binimetinib" ;
-    a m2r:Drug .
-
-civic:drug_PD184352
-    rdfs:label "PD184352" ;
-    a m2r:Drug .
-
-civic:drug_Oxaliplatin
-    rdfs:label "Oxaliplatin" ;
-    a m2r:Drug .
-
-civic:drug_Dacarbazine
-    rdfs:label "Dacarbazine" ;
-    a m2r:Drug .
-
-civic:drug_LBH-589
-    rdfs:label "LBH-589" ;
-    a m2r:Drug .
-
-civic:drug_Letrozole
-    rdfs:label "Letrozole" ;
-    a m2r:Drug .
-
-civic:drug_Rapamycin%28Sirolimus%29
-    rdfs:label "Rapamycin (Sirolimus)" ;
-    a m2r:Drug .
-
-civic:drug_Cetuximab
-    rdfs:label "Cetuximab" ;
-    a m2r:Drug .
-
-civic:drug_CH5132799
-    rdfs:label "CH5132799" ;
-    a m2r:Drug .
-
-civic:drug_Nintedanib
-    rdfs:label "Nintedanib" ;
-    a m2r:Drug .
-
-civic:drug_Pembrolizumab
-    rdfs:label "Pembrolizumab" ;
-    a m2r:Drug .
-
-civic:drug_BEZ235
-    rdfs:label "BEZ235" ;
-    a m2r:Drug .
-
-civic:drug_Bis-2-%5B5-%28phenylacetamide%29-1
-    rdfs:label "Bis-2-[5-(phenylacetamide)-1" ;
-    a m2r:Drug .
-
-civic:drug_GDC0941
-    rdfs:label "GDC0941" ;
-    a m2r:Drug .
-
-civic:drug_Bortezomib
-    rdfs:label "Bortezomib" ;
-    a m2r:Drug .
-
-civic:drug_Dactolisib%29
-    rdfs:label " Dactolisib)" ;
-    a m2r:Drug .
-
-civic:drug_Afatinib
-    rdfs:label "Afatinib" ;
-    a m2r:Drug .
-
-civic:drug_Alpelisib
-    rdfs:label "Alpelisib" ;
-    a m2r:Drug .
-
-civic:drug_Nelarabine
-    rdfs:label "Nelarabine" ;
-    a m2r:Drug .
-
-civic:drug_Crizotinib
-    rdfs:label "Crizotinib" ;
-    a m2r:Drug .
-
-civic:drug_CH5424802
-    rdfs:label "CH5424802" ;
-    a m2r:Drug .
-
-civic:drug_FGF-VEGFReceptorTyrosineKinaseInhibitor
-    rdfs:label "FGF/VEGF Receptor Tyrosine Kinase Inhibitor" ;
-    a m2r:Drug .
-
-civic:drug_SpliceostatinA
-    rdfs:label "Spliceostatin A" ;
-    a m2r:Drug .
-
-civic:drug_AKT3Inhibitor
-    rdfs:label "AKT3 Inhibitor" ;
-    a m2r:Drug .
-
-civic:drug_NU7441
-    rdfs:label "NU7441" ;
-    a m2r:Drug .
-
-civic:drug_Lorlatinib
-    rdfs:label "Lorlatinib" ;
-    a m2r:Drug .
-
-civic:drug_Go6983
-    rdfs:label "Go6983" ;
-    a m2r:Drug .
-
-civic:drug_Docetaxel
-    rdfs:label "Docetaxel" ;
-    a m2r:Drug .
-
-civic:drug_Gefitinib
-    rdfs:label "Gefitinib" ;
-    a m2r:Drug .
-
-civic:drug_Savolitinib
-    rdfs:label "Savolitinib" ;
-    a m2r:Drug .
-
-civic:drug_Erlotinib
-    rdfs:label "Erlotinib" ;
-    a m2r:Drug .
-
-civic:drug_Ibrutinib
-    rdfs:label "Ibrutinib" ;
-    a m2r:Drug .
-
-civic:drug_Melphalan
-    rdfs:label "Melphalan" ;
-    a m2r:Drug .
-
-civic:drug_AZD8186
-    rdfs:label "AZD8186" ;
-    a m2r:Drug .
-
-civic:drug_Pomalidomide
-    rdfs:label "Pomalidomide" ;
-    a m2r:Drug .
-
-civic:drug_Neratinib
-    rdfs:label "Neratinib" ;
-    a m2r:Drug .
-
-civic:drug_Talazoparib
-    rdfs:label "Talazoparib" ;
-    a m2r:Drug .
-
-civic:drug_MK-2206
-    rdfs:label "MK-2206" ;
-    a m2r:Drug .
-
-civic:drug_Belinostat
-    rdfs:label "Belinostat" ;
-    a m2r:Drug .
-
-civic:drug_AS602868
-    rdfs:label "AS602868" ;
-    a m2r:Drug .
-
-civic:drug_Nivolumab
-    rdfs:label "Nivolumab" ;
-    a m2r:Drug .
-
-civic:drug_Alectinib
-    rdfs:label "Alectinib" ;
-    a m2r:Drug .
-
-civic:drug_Fulvestrant
-    rdfs:label "Fulvestrant" ;
-    a m2r:Drug .
-
-civic:drug_SN-38
-    rdfs:label "SN-38" ;
-    a m2r:Drug .
-
-civic:drug_TAK-733
-    rdfs:label "TAK-733" ;
-    a m2r:Drug .
-
-civic:drug_Atezolizumab
-    rdfs:label "Atezolizumab" ;
-    a m2r:Drug .
-
-civic:drug_Flavopiridol
-    rdfs:label "Flavopiridol" ;
-    a m2r:Drug .
-
-civic:drug_17-DMAG
-    rdfs:label "17-DMAG" ;
-    a m2r:Drug .
-
-civic:drug_MitomycinC
-    rdfs:label "Mitomycin C" ;
-    a m2r:Drug .
-
-civic:drug_GDC-0879
-    rdfs:label "GDC-0879" ;
-    a m2r:Drug .
-
-civic:drug_Cytarabine
-    rdfs:label "Cytarabine" ;
-    a m2r:Drug .
-
-civic:drug_AdjuvantChemotherapy
-    rdfs:label "Adjuvant Chemotherapy" ;
-    a m2r:Drug .
-
-civic:drug_Ado-trastuzumabEmtansine
-    rdfs:label "Ado-trastuzumab Emtansine" ;
-    a m2r:Drug .
-
-civic:drug_AZD1480
-    rdfs:label "AZD1480" ;
-    a m2r:Drug .
-
-civic:drug_L-asparaginase
-    rdfs:label "L-asparaginase" ;
-    a m2r:Drug .
-
-civic:drug_Taselisib%28GDC-0032%29
-    rdfs:label "Taselisib (GDC-0032)" ;
-    a m2r:Drug .
-
-civic:drug_ImatinibMesylate
-    rdfs:label "Imatinib Mesylate" ;
-    a m2r:Drug .
-
-civic:drug_PD173074
-    rdfs:label "PD173074" ;
-    a m2r:Drug .
-
-civic:drug_PLATINUM
-    rdfs:label "PLATINUM" ;
-    a m2r:Drug .
-
-civic:drug_4-pyrimidinediamine
-    rdfs:label "4-pyrimidinediamine" ;
-    a m2r:Drug .
-
-civic:drug_LY294002
-    rdfs:label "LY294002" ;
-    a m2r:Drug .
-
-civic:drug_Linsitinib
-    rdfs:label "Linsitinib" ;
-    a m2r:Drug .
-
-civic:drug_Avelumab
-    rdfs:label "Avelumab" ;
-    a m2r:Drug .
-
-civic:drug_MEDI4736
-    rdfs:label "MEDI4736" ;
-    a m2r:Drug .
-
-civic:drug_SCH772984
-    rdfs:label "SCH772984" ;
-    a m2r:Drug .
-
-civic:drug_Quizartinib%28AC220%29
-    rdfs:label "Quizartinib (AC220)" ;
-    a m2r:Drug .
-
-civic:drug_Conatumumab
-    rdfs:label "Conatumumab" ;
-    a m2r:Drug .
-
-civic:drug_MLN518
-    rdfs:label "MLN518" ;
-    a m2r:Drug .
-
-civic:drug_Vincristine
-    rdfs:label "Vincristine" ;
-    a m2r:Drug .
-
-civic:drug_CX-5461
-    rdfs:label "CX-5461" ;
-    a m2r:Drug .
-
-civic:drug_PF00299804
-    rdfs:label "PF 00299804" ;
-    a m2r:Drug .
-
-civic:drug_Mitomycin
-    rdfs:label "Mitomycin" ;
-    a m2r:Drug .
-
-civic:drug_Foretinib
-    rdfs:label "Foretinib" ;
-    a m2r:Drug .
-
-civic:drug_WYE354
-    rdfs:label "WYE354" ;
-    a m2r:Drug .
-
-civic:drug_PD-1Inhibitor
-    rdfs:label "PD-1 Inhibitor" ;
-    a m2r:Drug .
-
-civic:drug_Pemetrexed
-    rdfs:label "Pemetrexed" ;
-    a m2r:Drug .
-
-civic:drug_Trastuzumab
-    rdfs:label "Trastuzumab" ;
-    a m2r:Drug .
-
-civic:drug_Cyclophosphamide
-    rdfs:label "Cyclophosphamide" ;
-    a m2r:Drug .
-
-civic:drug_Anthracycline
-    rdfs:label "Anthracycline" ;
-    a m2r:Drug .
-
-civic:drug_PSI
-    rdfs:label "PSI" ;
-    a m2r:Drug .
-
-civic:drug_Larotrectinib%28LOXO-101%29
-    rdfs:label "Larotrectinib (LOXO-101)" ;
-    a m2r:Drug .
-
-civic:drug_Nicotinamide
-    rdfs:label "Nicotinamide" ;
-    a m2r:Drug .
-
-civic:drug_AZD7762
-    rdfs:label "AZD7762" ;
-    a m2r:Drug .
-
-civic:drug_JQ1Compound
-    rdfs:label "JQ1 Compound" ;
-    a m2r:Drug .
-
-civic:drug_Olaparib
-    rdfs:label "Olaparib" ;
-    a m2r:Drug .
-
-civic:drug_Anti-EGFRMonoclonalAntibody
-    rdfs:label "Anti-EGFR Monoclonal Antibody" ;
-    a m2r:Drug .
-
-civic:drug_Panitumumab
-    rdfs:label "Panitumumab" ;
-    a m2r:Drug .
-
-civic:drug_Idelalisib
-    rdfs:label "Idelalisib" ;
-    a m2r:Drug .
-
-civic:drug_PD-180970
-    rdfs:label "PD-180970" ;
-    a m2r:Drug .
-
-civic:drug_TrastuzumabEmtansine
-    rdfs:label "Trastuzumab Emtansine" ;
-    a m2r:Drug .
-
-civic:drug_AZD5438
-    rdfs:label "AZD5438" ;
-    a m2r:Drug .
-
-civic:drug_FarnesylthiosalicylicAcid
-    rdfs:label "Farnesylthiosalicylic Acid" ;
-    a m2r:Drug .
-
-civic:drug_Enzastaurin
-    rdfs:label "Enzastaurin" ;
-    a m2r:Drug .
-
-civic:drug_GF109203X
-    rdfs:label "GF109203X" ;
-    a m2r:Drug .
-
-civic:drug_Salinomycin
-    rdfs:label "Salinomycin" ;
-    a m2r:Drug .
-
-civic:drug_IMO
-    rdfs:label "IMO" ;
-    a m2r:Drug .
-
-civic:drug_NOTCH1Antibody
-    rdfs:label "NOTCH1 Antibody" ;
-    a m2r:Drug .
-
-civic:drug_Bevacizumab
-    rdfs:label "Bevacizumab" ;
-    a m2r:Drug .
-
-civic:drug_SB202190
-    rdfs:label "SB202190" ;
-    a m2r:Drug .
-
-civic:drug_Etoposide
-    rdfs:label "Etoposide" ;
-    a m2r:Drug .
-
-civic:drug_AZD5363
-    rdfs:label "AZD5363" ;
-    a m2r:Drug .
-
-civic:drug_FolfoxProtocol
-    rdfs:label "FolfoxProtocol" ;
-    a m2r:Drug .
-
-civic:drug_Sym004
-    rdfs:label "Sym004" ;
-    a m2r:Drug .
-
-civic:drug_MonomethylAuristatinE
-    rdfs:label "Monomethyl Auristatin E" ;
-    a m2r:Drug .
-
-civic:drug_Ceritinib
-    rdfs:label "Ceritinib" ;
-    a m2r:Drug .
-
-civic:drug_ACLYSiRNA
-    rdfs:label "ACLY SiRNA" ;
-    a m2r:Drug .
-
-civic:drug_TrametinibDMSO
-    rdfs:label "Trametinib DMSO" ;
-    a m2r:Drug .
-
-civic:drug_LY3009120
-    rdfs:label "LY3009120" ;
-    a m2r:Drug .
-
 civic:drug_Daunorubicin
     rdfs:label "Daunorubicin" ;
-    a m2r:Drug .
-
-civic:drug_Enasidenib%28AG-221%29
-    rdfs:label "Enasidenib (AG-221)" ;
-    a m2r:Drug .
-
-civic:drug_Rindopepimut
-    rdfs:label "Rindopepimut" ;
-    a m2r:Drug .
-
-civic:drug_Anti-ERBB3Agents
-    rdfs:label "Anti-ERBB3 Agents" ;
-    a m2r:Drug .
-
-civic:drug_PP242
-    rdfs:label "PP242" ;
-    a m2r:Drug .
-
-civic:drug_Pertuzumab
-    rdfs:label "Pertuzumab" ;
-    a m2r:Drug .
-
-civic:drug_GNE-617
-    rdfs:label "GNE-617" ;
-    a m2r:Drug .
-
-civic:drug_Cixutumumab
-    rdfs:label "Cixutumumab" ;
-    a m2r:Drug .
-
-civic:drug_SGX523
-    rdfs:label "SGX523" ;
-    a m2r:Drug .
-
-civic:drug_Staurosporine
-    rdfs:label "Staurosporine" ;
-    a m2r:Drug .
-
-civic:drug_Larotrectinib
-    rdfs:label "Larotrectinib" ;
-    a m2r:Drug .
-
-civic:drug_JQ1
-    rdfs:label "JQ1" ;
-    a m2r:Drug .
-
-civic:drug_Idarubicin
-    rdfs:label "Idarubicin" ;
-    a m2r:Drug .
-
-civic:drug_BAY86-9766
-    rdfs:label "BAY 86-9766" ;
-    a m2r:Drug .
-
-civic:drug_Tegafur
-    rdfs:label "Tegafur" ;
-    a m2r:Drug .
-
-civic:drug_Nilutamide
-    rdfs:label "Nilutamide" ;
-    a m2r:Drug .
-
-civic:drug_Nilotinib
-    rdfs:label "Nilotinib" ;
-    a m2r:Drug .
-
-civic:drug_Ipatasertib
-    rdfs:label "Ipatasertib" ;
-    a m2r:Drug .
-
-civic:drug_4-thiadiazol-2-yl%5DethylSulfide
-    rdfs:label "4-thiadiazol-2-yl]ethyl Sulfide" ;
-    a m2r:Drug .
-
-civic:drug_Temsirolimus
-    rdfs:label "Temsirolimus" ;
-    a m2r:Drug .
-
-civic:drug_CRS-IPHC
-    rdfs:label "CRS/IPHC" ;
-    a m2r:Drug .
-
-civic:drug_Alectinib%28CH5424802%29
-    rdfs:label "Alectinib (CH5424802)" ;
-    a m2r:Drug .
-
-civic:drug_Paclitaxel
-    rdfs:label "Paclitaxel" ;
-    a m2r:Drug .
-
-civic:drug_Saridegib
-    rdfs:label "Saridegib" ;
-    a m2r:Drug .
-
-civic:drug_9F7-F11
-    rdfs:label "9F7-F11" ;
-    a m2r:Drug .
-
-civic:drug_Buparlisib
-    rdfs:label "Buparlisib" ;
-    a m2r:Drug .
-
-civic:drug_SGK1-Inh
-    rdfs:label "SGK1-Inh" ;
-    a m2r:Drug .
-
-civic:drug_Rucaparib
-    rdfs:label "Rucaparib" ;
-    a m2r:Drug .
-
-civic:drug_Dinaciclib
-    rdfs:label "Dinaciclib" ;
-    a m2r:Drug .
-
-civic:drug_BGJ398
-    rdfs:label "BGJ398" ;
-    a m2r:Drug .
-
-civic:drug_VEGFInhibition
-    rdfs:label "VEGF Inhibition" ;
-    a m2r:Drug .
-
-civic:drug_EGFRInhibitor
-    rdfs:label "EGFR Inhibitor" ;
-    a m2r:Drug .
-
-civic:drug_PD0332991
-    rdfs:label "PD0332991" ;
-    a m2r:Drug .
-
-civic:drug_Trametinib
-    rdfs:label "Trametinib" ;
-    a m2r:Drug .
-
-civic:drug_Durvalumab
-    rdfs:label "Durvalumab" ;
-    a m2r:Drug .
-
-civic:drug_MLN0128
-    rdfs:label "MLN0128" ;
-    a m2r:Drug .
-
-civic:drug_IMG-2005-5
-    rdfs:label "IMG-2005-5" ;
-    a m2r:Drug .
-
-civic:drug_5-fluorouracil
-    rdfs:label "5-fluorouracil" ;
-    a m2r:Drug .
-
-civic:drug_BMN-673
-    rdfs:label "BMN-673" ;
-    a m2r:Drug .
-
-civic:drug_CX-3543
-    rdfs:label "CX-3543" ;
-    a m2r:Drug .
-
-civic:drug_NSC348884
-    rdfs:label "NSC348884" ;
-    a m2r:Drug .
-
-civic:drug_Nimotuzumab
-    rdfs:label "Nimotuzumab" ;
-    a m2r:Drug .
-
-civic:drug_Patritumab
-    rdfs:label "Patritumab" ;
-    a m2r:Drug .
-
-civic:drug_Irinotecan
-    rdfs:label "Irinotecan" ;
-    a m2r:Drug .
-
-civic:drug_Vismodegib
-    rdfs:label "Vismodegib" ;
-    a m2r:Drug .
-
-civic:drug_Dacomitinib
-    rdfs:label "Dacomitinib" ;
-    a m2r:Drug .
-
-civic:drug_RO4987655
-    rdfs:label "RO4987655" ;
-    a m2r:Drug .
-
-civic:drug_Amuvatinib
-    rdfs:label "Amuvatinib" ;
-    a m2r:Drug .
-
-civic:drug_VTX-11e
-    rdfs:label "VTX-11e" ;
     a m2r:Drug .
 
 civic:drug_Selumetinib%28AZD6244%29
     rdfs:label "Selumetinib (AZD6244)" ;
     a m2r:Drug .
 
-civic:drug_Gemcitabine
-    rdfs:label "Gemcitabine" ;
-    a m2r:Drug .
-
-civic:drug_FOLFIRIRegimen
-    rdfs:label "FOLFIRI Regimen" ;
-    a m2r:Drug .
-
-civic:drug_JSI-124
-    rdfs:label "JSI-124" ;
-    a m2r:Drug .
-
-civic:drug_CBL0137
-    rdfs:label "CBL0137" ;
-    a m2r:Drug .
-
-civic:drug_HormoneTherapy
-    rdfs:label "Hormone Therapy" ;
-    a m2r:Drug .
-
-civic:drug_SU11248
-    rdfs:label "SU11248" ;
-    a m2r:Drug .
-
-civic:drug_Cabozantinib
-    rdfs:label "Cabozantinib" ;
-    a m2r:Drug .
-
-civic:drug_O%286%29-benzylguanine
-    rdfs:label "O(6)-benzylguanine" ;
-    a m2r:Drug .
-
-civic:drug_Cediranib
-    rdfs:label "Cediranib" ;
-    a m2r:Drug .
-
-civic:drug_Dabrafenib
-    rdfs:label "Dabrafenib" ;
-    a m2r:Drug .
-
-civic:drug_IRAK-1-4Inhibitor
-    rdfs:label "IRAK-1/4 Inhibitor" ;
-    a m2r:Drug .
-
-civic:drug_IGF1RMonoclonalAntibody
-    rdfs:label "IGF1R Monoclonal Antibody" ;
-    a m2r:Drug .
-
-civic:drug_Stattic
-    rdfs:label "Stattic" ;
-    a m2r:Drug .
-
-civic:drug_TG101348
-    rdfs:label "TG101348" ;
-    a m2r:Drug .
-
-civic:drug_AZD3463
-    rdfs:label "AZD3463" ;
-    a m2r:Drug .
-
-civic:drug_Pazopanib
-    rdfs:label "Pazopanib" ;
-    a m2r:Drug .
-
-civic:drug_A66
-    rdfs:label "A66" ;
-    a m2r:Drug .
-
-civic:drug_Palbociclib%28PD0332991%29
-    rdfs:label "Palbociclib (PD0332991)" ;
-    a m2r:Drug .
-
-civic:drug_Lestaurtinib%28CEP-701%29
-    rdfs:label "Lestaurtinib (CEP-701)" ;
+civic:drug_Vemurafenib
+    rdfs:label "Vemurafenib" ;
     a m2r:Drug .
 
 civic:drug_Imatinib
     rdfs:label "Imatinib" ;
     a m2r:Drug .
 
-civic:drug_SU5614
-    rdfs:label "SU5614" ;
-    a m2r:Drug .
-
-civic:drug_InductionTherapy
-    rdfs:label "Induction Therapy" ;
-    a m2r:Drug .
-
-civic:drug_Chlorambucil
-    rdfs:label "Chlorambucil" ;
-    a m2r:Drug .
-
-civic:drug_Dasatinib
-    rdfs:label "Dasatinib" ;
-    a m2r:Drug .
-
-civic:drug_Abemaciclib
-    rdfs:label "Abemaciclib" ;
-    a m2r:Drug .
-
-civic:drug_AG1296
-    rdfs:label "AG1296" ;
-    a m2r:Drug .
-
-civic:drug_Exemestane
-    rdfs:label "Exemestane" ;
-    a m2r:Drug .
-
-civic:drug_5-FU
-    rdfs:label "5-FU" ;
-    a m2r:Drug .
-
-civic:drug_Carmustine
-    rdfs:label "Carmustine" ;
-    a m2r:Drug .
-
-civic:drug_XL147%28Pilaralisib%29
-    rdfs:label "XL147 (Pilaralisib)" ;
-    a m2r:Drug .
-
-civic:drug_Vorinostat%28SAHA%29
-    rdfs:label "Vorinostat (SAHA)" ;
-    a m2r:Drug .
-
-civic:drug_PD-L1Antibody
-    rdfs:label "PD-L1 Antibody" ;
-    a m2r:Drug .
-
-civic:drug_AZD8055
-    rdfs:label "AZD8055" ;
-    a m2r:Drug .
-
-civic:drug_Palbociclib
-    rdfs:label "Palbociclib" ;
-    a m2r:Drug .
-
-civic:drug_AZ628
-    rdfs:label "AZ628" ;
-    a m2r:Drug .
-
-civic:drug_JW55
-    rdfs:label "JW55" ;
-    a m2r:Drug .
-
-civic:drug_Alemtuzumab
-    rdfs:label "Alemtuzumab" ;
-    a m2r:Drug .
-
-civic:drug_Alisertib
-    rdfs:label "Alisertib" ;
-    a m2r:Drug .
-
-civic:drug_Nutlin-3a
-    rdfs:label "Nutlin-3a" ;
-    a m2r:Drug .
-
-civic:drug_Enasidenib
-    rdfs:label "Enasidenib" ;
-    a m2r:Drug .
-
-civic:drug_BYL719%28Alpelisib%29
-    rdfs:label "BYL719 (Alpelisib)" ;
-    a m2r:Drug .
-
-civic:drug_Meloxicam
-    rdfs:label "Meloxicam" ;
-    a m2r:Drug .
-
-civic:drug_Veliparib
-    rdfs:label "Veliparib" ;
-    a m2r:Drug .
-
-civic:drug_U0126
-    rdfs:label "U0126" ;
-    a m2r:Drug .
-
-civic:drug_MTORInhibitors
-    rdfs:label "MTOR Inhibitors" ;
-    a m2r:Drug .
-
-civic:drug_Nutlin-3
-    rdfs:label "Nutlin-3" ;
-    a m2r:Drug .
-
-civic:drug_GSK2141795
-    rdfs:label "GSK2141795" ;
-    a m2r:Drug .
-
-civic:drug_MEDI0680
-    rdfs:label "MEDI0680" ;
-    a m2r:Drug .
-
-civic:drug_MEKInhibitor
-    rdfs:label "MEK Inhibitor" ;
-    a m2r:Drug .
-
-civic:drug_Aminoglutethimide
-    rdfs:label "Aminoglutethimide" ;
-    a m2r:Drug .
-
-civic:drug_WHI-P154
-    rdfs:label "WHI-P154" ;
-    a m2r:Drug .
-
-civic:drug_OICR-9429
-    rdfs:label "OICR-9429" ;
-    a m2r:Drug .
-
-civic:drug_Doxorubicin
-    rdfs:label "Doxorubicin" ;
-    a m2r:Drug .
-
-civic:drug_Lonafarnib
-    rdfs:label "Lonafarnib" ;
-    a m2r:Drug .
-
-civic:drug_AV-203
-    rdfs:label "AV-203" ;
-    a m2r:Drug .
-
-civic:drug_Capecitibine
-    rdfs:label "Capecitibine" ;
-    a m2r:Drug .
-
-civic:drug_CP724714
-    rdfs:label "CP724714" ;
-    a m2r:Drug .
-
-civic:drug_Ruxolitinib
-    rdfs:label "Ruxolitinib" ;
-    a m2r:Drug .
-
-civic:drug_G007-LK
-    rdfs:label "G007-LK" ;
-    a m2r:Drug .
-
-civic:drug_RadioactiveIodine
-    rdfs:label "Radioactive Iodine" ;
-    a m2r:Drug .
-
-civic:drug_Onartuzumab
-    rdfs:label "Onartuzumab" ;
-    a m2r:Drug .
-
-civic:drug_GDC-0980
-    rdfs:label "GDC-0980" ;
-    a m2r:Drug .
-
-civic:drug_Epirubicin
-    rdfs:label "Epirubicin" ;
-    a m2r:Drug .
-
-civic:drug_Lapatinib
-    rdfs:label "Lapatinib" ;
-    a m2r:Drug .
-
-civic:drug_GSK126
-    rdfs:label "GSK126" ;
-    a m2r:Drug .
-
-civic:drug_Dovitinib
-    rdfs:label "Dovitinib" ;
-    a m2r:Drug .
-
-civic:drug_KU-0060648
-    rdfs:label "KU-0060648" ;
-    a m2r:Drug .
-
-civic:drug_Methotrexate
-    rdfs:label "Methotrexate" ;
-    a m2r:Drug .
-
-civic:drug_Taxane
-    rdfs:label "Taxane" ;
-    a m2r:Drug .
-
-civic:drug_Sunitinib
-    rdfs:label "Sunitinib" ;
-    a m2r:Drug .
-
-civic:drug_BGJ-398
-    rdfs:label "BGJ-398" ;
-    a m2r:Drug .
-
-civic:drug_Rociletinib
-    rdfs:label "Rociletinib" ;
-    a m2r:Drug .
-
-civic:drug_ValproicAcid
-    rdfs:label "Valproic Acid" ;
-    a m2r:Drug .
-
-civic:drug_Entrectinib
-    rdfs:label "Entrectinib" ;
-    a m2r:Drug .
-
-civic:drug_Mocetinostat
-    rdfs:label "Mocetinostat" ;
-    a m2r:Drug .
-
-civic:drug_17-AAG
-    rdfs:label "17-AAG" ;
-    a m2r:Drug .
-
-civic:drug_Apitolisib
-    rdfs:label "Apitolisib" ;
-    a m2r:Drug .
-
-civic:drug_GSK321
-    rdfs:label "GSK321" ;
-    a m2r:Drug .
-
-civic:drug_EAPProtocol
-    rdfs:label "EAP Protocol" ;
-    a m2r:Drug .
-
-civic:drug_TrichostatinA%28TSA%29
-    rdfs:label "Trichostatin A (TSA)" ;
-    a m2r:Drug .
-
-civic:drug_AEE788
-    rdfs:label "AEE788" ;
-    a m2r:Drug .
-
-civic:drug_Fasudil
-    rdfs:label "Fasudil" ;
-    a m2r:Drug .
-
-civic:drug_LY2835219
-    rdfs:label "LY2835219" ;
-    a m2r:Drug .
-
-civic:drug_CI-1040
-    rdfs:label "CI-1040" ;
-    a m2r:Drug .
-
-civic:drug_Cisplatin
-    rdfs:label "Cisplatin" ;
-    a m2r:Drug .
-
-civic:drug_LGK974
-    rdfs:label "LGK974" ;
-    a m2r:Drug .
-
-civic:drug_Pictilisib
-    rdfs:label "Pictilisib" ;
-    a m2r:Drug .
-
-civic:drug_Procarbazine
-    rdfs:label "Procarbazine" ;
-    a m2r:Drug .
-
-civic:drug_5-Fluoropyrimidine
-    rdfs:label "5-Fluoropyrimidine" ;
-    a m2r:Drug .
-
-civic:drug_All-transRetinoicAcid
-    rdfs:label "All-trans Retinoic Acid" ;
-    a m2r:Drug .
-
-civic:drug_MC1568
-    rdfs:label "MC1568" ;
-    a m2r:Drug .
-
-civic:drug_ARS-853
-    rdfs:label "ARS-853" ;
-    a m2r:Drug .
-
 civic:drug_Sorafenib
     rdfs:label "Sorafenib" ;
     a m2r:Drug .
 
-civic:drug_Decitabine
-    rdfs:label "Decitabine" ;
-    a m2r:Drug .
-
-civic:drug_Quizartinib
-    rdfs:label "Quizartinib" ;
-    a m2r:Drug .
-
-civic:drug_Capmatinib
-    rdfs:label "Capmatinib" ;
-    a m2r:Drug .
-
-civic:drug_Raltitrexed
-    rdfs:label "Raltitrexed" ;
-    a m2r:Drug .
-
-civic:drug_Encorafenib
-    rdfs:label "Encorafenib" ;
-    a m2r:Drug .
-
-civic:drug_GW-2580
-    rdfs:label "GW-2580" ;
-    a m2r:Drug .
-
-civic:drug_Topotecan
-    rdfs:label "Topotecan" ;
-    a m2r:Drug .
-
-civic:drug_Ipilimumab
-    rdfs:label "Ipilimumab" ;
-    a m2r:Drug .
-
-civic:drug_Motesanib
-    rdfs:label "Motesanib" ;
-    a m2r:Drug .
-
-civic:drug_WZ4002
-    rdfs:label "WZ4002" ;
-    a m2r:Drug .
-
-civic:drug_Binimetinib%28MEK162%29
-    rdfs:label "Binimetinib (MEK162)" ;
-    a m2r:Drug .
-
-civic:drug_Tgx221
-    rdfs:label "Tgx 221" ;
-    a m2r:Drug .
-
-civic:drug_ARRY-470
-    rdfs:label "ARRY-470" ;
-    a m2r:Drug .
-
-civic:drug_Metformin
-    rdfs:label "Metformin" ;
-    a m2r:Drug .
-
-civic:drug_PI103
-    rdfs:label "PI103" ;
-    a m2r:Drug .
-
-civic:drug_Anti-CD123
-    rdfs:label "Anti-CD123" ;
-    a m2r:Drug .
-
-civic:drug_Brigatinib
-    rdfs:label "Brigatinib" ;
-    a m2r:Drug .
-
-civic:drug_Ganetespib
-    rdfs:label "Ganetespib" ;
+civic:drug_Idarubicin
+    rdfs:label "Idarubicin" ;
     a m2r:Drug .
 
 civic:drug_PegylatedIFN-alpha-2a
     rdfs:label "Pegylated IFN-alpha-2a" ;
     a m2r:Drug .
 
-civic:drug_Amrubicin
-    rdfs:label "Amrubicin" ;
+civic:drug_TG101348
+    rdfs:label "TG101348" ;
     a m2r:Drug .
 
-civic:drug_ARRY-142886
-    rdfs:label "ARRY-142886" ;
-    a m2r:Drug .
-
-civic:drug_JNJ-42756493
-    rdfs:label "JNJ-42756493" ;
-    a m2r:Drug .
-
-civic:drug_CyproteroneAcetate
-    rdfs:label "Cyproterone Acetate" ;
-    a m2r:Drug .
-
-civic:drug_TAE684
-    rdfs:label "TAE684" ;
-    a m2r:Drug .
-
-civic:drug_CTLA-4Antibody
-    rdfs:label "CTLA-4 Antibody" ;
-    a m2r:Drug .
-
-civic:drug_AntiangiogenicTherapy
-    rdfs:label "Antiangiogenic Therapy" ;
-    a m2r:Drug .
-
-civic:drug_Ribociclib
-    rdfs:label "Ribociclib" ;
-    a m2r:Drug .
-
-civic:drug_Perifosine
-    rdfs:label "Perifosine" ;
-    a m2r:Drug .
-
-civic:drug_DovitinibDilacticAcid%28TKI258DilacticAcid%29
-    rdfs:label "Dovitinib Dilactic Acid (TKI258 Dilactic Acid)" ;
-    a m2r:Drug .
-
-civic:drug_AG-120
-    rdfs:label "AG-120" ;
-    a m2r:Drug .
-
-civic:drug_TIM-3Inhibitor
-    rdfs:label "TIM-3 Inhibitor" ;
-    a m2r:Drug .
-
-civic:drug_AZD-5363
-    rdfs:label "AZD-5363" ;
-    a m2r:Drug .
-
-civic:drug_Irbesartan
-    rdfs:label "Irbesartan" ;
-    a m2r:Drug .
-
-civic:drug_AGI-5198
-    rdfs:label "AGI-5198" ;
-    a m2r:Drug .
-
-civic:drug_PLX7486
-    rdfs:label "PLX7486" ;
-    a m2r:Drug .
-
-civic:drug_BMS-354825
-    rdfs:label "BMS-354825" ;
-    a m2r:Drug .
-
-civic:drug_Chloroquine
-    rdfs:label "Chloroquine" ;
-    a m2r:Drug .
-
-civic:drug_Refametinib
-    rdfs:label "Refametinib" ;
-    a m2r:Drug .
-
-civic:drug_Rilotumumab
-    rdfs:label "Rilotumumab" ;
-    a m2r:Drug .
-
-civic:drug_Vinorelbine
-    rdfs:label "Vinorelbine" ;
-    a m2r:Drug .
-
-civic:drug_AUY922
-    rdfs:label "AUY922" ;
-    a m2r:Drug .
-
-civic:drug_4-hydroxytamoxifen
-    rdfs:label "4-hydroxytamoxifen" ;
-    a m2r:Drug .
-
-civic:drug_ZoledronicAcid
-    rdfs:label "Zoledronic Acid" ;
-    a m2r:Drug .
-
-civic:drug_Cc-223
-    rdfs:label "Cc-223" ;
-    a m2r:Drug .
-
-civic:drug_AKTi-1-2
-    rdfs:label "AKTi-1/2" ;
-    a m2r:Drug .
-
-civic:drug_JQ-1
-    rdfs:label "JQ-1" ;
-    a m2r:Drug .
-
-civic:drug_Flutamide
-    rdfs:label "Flutamide" ;
-    a m2r:Drug .
-
-civic:drug_Vandetanib
-    rdfs:label "Vandetanib" ;
-    a m2r:Drug .
-
-civic:drug_ArsenicTrioxide
-    rdfs:label "Arsenic Trioxide" ;
-    a m2r:Drug .
-
-civic:drug_OSI-906%28Linsitinib%29
-    rdfs:label "OSI-906 (Linsitinib)" ;
-    a m2r:Drug .
-
-civic:drug_FOLFOX4
-    rdfs:label "FOLFOX4" ;
-    a m2r:Drug .
-
-civic:drug_6-mercaptopurine
-    rdfs:label "6-mercaptopurine" ;
-    a m2r:Drug .
-
-civic:drug_Carboplatin
-    rdfs:label "Carboplatin" ;
-    a m2r:Drug .
-
-civic:drug_Abiraterone
-    rdfs:label "Abiraterone" ;
-    a m2r:Drug .
-
-civic:drug_ARN-509
-    rdfs:label "ARN-509" ;
-    a m2r:Drug .
-
-civic:drug_BMS-387032%28SNS-032%29
-    rdfs:label "BMS-387032 (SNS-032)" ;
-    a m2r:Drug .
-
-civic:drug_Crenolanib
-    rdfs:label "Crenolanib" ;
-    a m2r:Drug .
-
-civic:drug_AZ909
-    rdfs:label "AZ909" ;
-    a m2r:Drug .
-
-civic:drug_UNC1062
-    rdfs:label "UNC1062" ;
-    a m2r:Drug .
-
-civic:drug_Capecitabin
-    rdfs:label "Capecitabin" ;
-    a m2r:Drug .
-
-civic:drug_Ponatinib
-    rdfs:label "Ponatinib" ;
-    a m2r:Drug .
-
-civic:drug_ADI-PEG20
-    rdfs:label "ADI-PEG20" ;
-    a m2r:Drug .
-
-civic:drug_AEB071
-    rdfs:label "AEB071" ;
-    a m2r:Drug .
-
-civic:drug_Canertinib
-    rdfs:label "Canertinib" ;
-    a m2r:Drug .
-
-civic:drug_Osimertinib
-    rdfs:label "Osimertinib" ;
-    a m2r:Drug .
-
-civic:drug_Prexasertib
-    rdfs:label "Prexasertib" ;
-    a m2r:Drug .
-
-civic:drug_GDC-0623
-    rdfs:label "GDC-0623" ;
-    a m2r:Drug .
-
-civic:drug_PD0325901
-    rdfs:label "PD0325901" ;
-    a m2r:Drug .
-
-civic:drug_LDE225
-    rdfs:label "LDE225" ;
-    a m2r:Drug .
-
-civic:drug_Bosutinib
-    rdfs:label "Bosutinib" ;
-    a m2r:Drug .
-
-civic:drug_Capecitabine
-    rdfs:label "Capecitabine" ;
-    a m2r:Drug .
-
-civic:drug_L-FolinicAcid
-    rdfs:label "L-Folinic Acid" ;
-    a m2r:Drug .
-
-civic:drug_Midostaurin
-    rdfs:label "Midostaurin" ;
-    a m2r:Drug .
-
-civic:drug_SU-5402
-    rdfs:label "SU-5402" ;
+civic:drug_17-AAG
+    rdfs:label "17-AAG" ;
     a m2r:Drug .
 
 civic:drug_Temozolomide
     rdfs:label "Temozolomide" ;
     a m2r:Drug .
 
-civic:drug_RG7112
-    rdfs:label "RG7112" ;
+civic:drug_Crizotinib
+    rdfs:label "Crizotinib" ;
     a m2r:Drug .
 
-civic:drug_AdoptiveT-cellTransfer
-    rdfs:label "Adoptive T-cell Transfer" ;
+civic:drug_Nilotinib
+    rdfs:label "Nilotinib" ;
     a m2r:Drug .
 
-civic:drug_AromataseInhibitor
-    rdfs:label "Aromatase Inhibitor" ;
+civic:drug_Gefitinib
+    rdfs:label "Gefitinib" ;
     a m2r:Drug .
 
-civic:drug_PI3KInhibitor
-    rdfs:label "PI3K Inhibitor" ;
+civic:drug_Erlotinib
+    rdfs:label "Erlotinib" ;
     a m2r:Drug .
 
-civic:drug_Ridaforolimus
-    rdfs:label "Ridaforolimus" ;
+civic:drug_Cetuximab
+    rdfs:label "Cetuximab" ;
     a m2r:Drug .
 
-civic:drug_Erlotinib-Pertuzumab
-    rdfs:label "Erlotinib/Pertuzumab" ;
+civic:drug_Alectinib%28CH5424802%29
+    rdfs:label "Alectinib (CH5424802)" ;
     a m2r:Drug .
 
-civic:drug_R1507
-    rdfs:label "R1507" ;
+civic:drug_TAE684
+    rdfs:label "TAE684" ;
     a m2r:Drug .
 
-civic:drug_3
-    rdfs:label "3" ;
+civic:drug_Trametinib
+    rdfs:label "Trametinib" ;
     a m2r:Drug .
 
-civic:drug_BEZ235%28NVP-BEZ235
-    rdfs:label "BEZ235 (NVP-BEZ235" ;
+civic:drug_Dasatinib
+    rdfs:label "Dasatinib" ;
     a m2r:Drug .
 
-civic:drug_RG7356
-    rdfs:label "RG7356" ;
+civic:drug_Crenolanib
+    rdfs:label "Crenolanib" ;
     a m2r:Drug .
 
-civic:drug_Bicalutamide
-    rdfs:label "Bicalutamide" ;
+civic:drug_Dabrafenib
+    rdfs:label "Dabrafenib" ;
     a m2r:Drug .
 
-civic:drug_Cobimetinib
-    rdfs:label "Cobimetinib" ;
+civic:drug_Motesanib
+    rdfs:label "Motesanib" ;
     a m2r:Drug .
 
-civic:drug_IPI-504
-    rdfs:label "IPI-504" ;
+civic:drug_AZD1480
+    rdfs:label "AZD1480" ;
     a m2r:Drug .
 
-civic:drug_LOXO-101
-    rdfs:label "LOXO-101" ;
+civic:drug_Dacarbazine
+    rdfs:label "Dacarbazine" ;
     a m2r:Drug .
 
 civic:drug_Regorafenib
     rdfs:label "Regorafenib" ;
     a m2r:Drug .
 
-civic:drug_6-thioguanine
-    rdfs:label "6-thioguanine" ;
+civic:drug_PD0325901
+    rdfs:label "PD0325901" ;
+    a m2r:Drug .
+
+civic:drug_Panitumumab
+    rdfs:label "Panitumumab" ;
+    a m2r:Drug .
+
+civic:drug_PLX4720
+    rdfs:label "PLX4720" ;
+    a m2r:Drug .
+
+civic:drug_GDC0941
+    rdfs:label "GDC0941" ;
+    a m2r:Drug .
+
+civic:drug_Nutlin-3
+    rdfs:label "Nutlin-3" ;
+    a m2r:Drug .
+
+civic:drug_Capecitabine
+    rdfs:label "Capecitabine" ;
+    a m2r:Drug .
+
+civic:drug_Bevacizumab
+    rdfs:label "Bevacizumab" ;
+    a m2r:Drug .
+
+civic:drug_All-transRetinoicAcid
+    rdfs:label "All-trans Retinoic Acid" ;
+    a m2r:Drug .
+
+civic:drug_SU5614
+    rdfs:label "SU5614" ;
+    a m2r:Drug .
+
+civic:drug_Cytarabine
+    rdfs:label "Cytarabine" ;
+    a m2r:Drug .
+
+civic:drug_PD173074
+    rdfs:label "PD173074" ;
+    a m2r:Drug .
+
+civic:drug_ValproicAcid
+    rdfs:label "Valproic Acid" ;
+    a m2r:Drug .
+
+civic:drug_NSC348884
+    rdfs:label "NSC348884" ;
+    a m2r:Drug .
+
+civic:drug_Anti-CD33
+    rdfs:label "Anti-CD33" ;
+    a m2r:Drug .
+
+civic:drug_Anti-CD123
+    rdfs:label "Anti-CD123" ;
+    a m2r:Drug .
+
+civic:drug_InductionTherapy
+    rdfs:label "Induction Therapy" ;
+    a m2r:Drug .
+
+civic:drug_Rapamycin%28Sirolimus%29
+    rdfs:label "Rapamycin (Sirolimus)" ;
+    a m2r:Drug .
+
+civic:drug_Everolimus
+    rdfs:label "Everolimus" ;
+    a m2r:Drug .
+
+civic:drug_Olaparib
+    rdfs:label "Olaparib" ;
+    a m2r:Drug .
+
+civic:drug_MK-2206
+    rdfs:label "MK-2206" ;
+    a m2r:Drug .
+
+civic:drug_Dacomitinib
+    rdfs:label "Dacomitinib" ;
+    a m2r:Drug .
+
+civic:drug_Lapatinib
+    rdfs:label "Lapatinib" ;
+    a m2r:Drug .
+
+civic:drug_HormoneTherapy
+    rdfs:label "Hormone Therapy" ;
+    a m2r:Drug .
+
+civic:drug_Palbociclib%28PD0332991%29
+    rdfs:label "Palbociclib (PD0332991)" ;
+    a m2r:Drug .
+
+civic:drug_BYL719%28Alpelisib%29
+    rdfs:label "BYL719 (Alpelisib)" ;
+    a m2r:Drug .
+
+civic:drug_Pemetrexed
+    rdfs:label "Pemetrexed" ;
+    a m2r:Drug .
+
+civic:drug_Staurosporine
+    rdfs:label "Staurosporine" ;
+    a m2r:Drug .
+
+civic:drug_Neratinib
+    rdfs:label "Neratinib" ;
     a m2r:Drug .
 
 civic:drug_Tamoxifen
     rdfs:label "Tamoxifen" ;
     a m2r:Drug .
 
-civic:drug_Radiation
-    rdfs:label "Radiation" ;
+civic:drug_Fulvestrant
+    rdfs:label "Fulvestrant" ;
     a m2r:Drug .
 
-civic:drug_EPZ-6438
-    rdfs:label "EPZ-6438" ;
+civic:drug_Ponatinib
+    rdfs:label "Ponatinib" ;
     a m2r:Drug .
 
-civic:drug_Vemurafenib
-    rdfs:label "Vemurafenib" ;
+civic:drug_Pazopanib
+    rdfs:label "Pazopanib" ;
     a m2r:Drug .
 
-civic:drug_RapaLink-1
-    rdfs:label "RapaLink-1" ;
+civic:drug_Lestaurtinib%28CEP-701%29
+    rdfs:label "Lestaurtinib (CEP-701)" ;
+    a m2r:Drug .
+
+civic:drug_AG1296
+    rdfs:label "AG1296" ;
+    a m2r:Drug .
+
+civic:drug_Bortezomib
+    rdfs:label "Bortezomib" ;
+    a m2r:Drug .
+
+civic:drug_Fasudil
+    rdfs:label "Fasudil" ;
+    a m2r:Drug .
+
+civic:drug_Sunitinib
+    rdfs:label "Sunitinib" ;
+    a m2r:Drug .
+
+civic:drug_BEZ235%28NVP-BEZ235
+    rdfs:label "BEZ235 (NVP-BEZ235" ;
+    a m2r:Drug .
+
+civic:drug_Dactolisib%29
+    rdfs:label " Dactolisib)" ;
+    a m2r:Drug .
+
+civic:drug_ARRY-142886
+    rdfs:label "ARRY-142886" ;
+    a m2r:Drug .
+
+civic:drug_Carmustine
+    rdfs:label "Carmustine" ;
+    a m2r:Drug .
+
+civic:drug_O%286%29-benzylguanine
+    rdfs:label "O(6)-benzylguanine" ;
+    a m2r:Drug .
+
+civic:drug_CH5132799
+    rdfs:label "CH5132799" ;
+    a m2r:Drug .
+
+civic:drug_MTORInhibitors
+    rdfs:label "MTOR Inhibitors" ;
+    a m2r:Drug .
+
+civic:drug_Doxorubicin
+    rdfs:label "Doxorubicin" ;
+    a m2r:Drug .
+
+civic:drug_GW-2580
+    rdfs:label "GW-2580" ;
+    a m2r:Drug .
+
+civic:drug_OSI-906%28Linsitinib%29
+    rdfs:label "OSI-906 (Linsitinib)" ;
+    a m2r:Drug .
+
+civic:drug_Docetaxel
+    rdfs:label "Docetaxel" ;
     a m2r:Drug .
 
 civic:drug_Cabazitaxel
     rdfs:label "Cabazitaxel" ;
     a m2r:Drug .
 
+civic:drug_Ibrutinib
+    rdfs:label "Ibrutinib" ;
+    a m2r:Drug .
+
+civic:drug_JW55
+    rdfs:label "JW55" ;
+    a m2r:Drug .
+
+civic:drug_G007-LK
+    rdfs:label "G007-LK" ;
+    a m2r:Drug .
+
 civic:drug_Enzalutamide
     rdfs:label "Enzalutamide" ;
     a m2r:Drug .
 
-civic:drug_AMGMDS3
-    rdfs:label "AMGMDS3" ;
+civic:drug_ARN-509
+    rdfs:label "ARN-509" ;
+    a m2r:Drug .
+
+civic:drug_Bicalutamide
+    rdfs:label "Bicalutamide" ;
+    a m2r:Drug .
+
+civic:drug_KU-0060648
+    rdfs:label "KU-0060648" ;
+    a m2r:Drug .
+
+civic:drug_NU7441
+    rdfs:label "NU7441" ;
+    a m2r:Drug .
+
+civic:drug_Cisplatin
+    rdfs:label "Cisplatin" ;
+    a m2r:Drug .
+
+civic:drug_Alisertib
+    rdfs:label "Alisertib" ;
+    a m2r:Drug .
+
+civic:drug_Paclitaxel
+    rdfs:label "Paclitaxel" ;
+    a m2r:Drug .
+
+civic:drug_Exemestane
+    rdfs:label "Exemestane" ;
+    a m2r:Drug .
+
+civic:drug_Temsirolimus
+    rdfs:label "Temsirolimus" ;
+    a m2r:Drug .
+
+civic:drug_Trastuzumab
+    rdfs:label "Trastuzumab" ;
+    a m2r:Drug .
+
+civic:drug_Gemcitabine
+    rdfs:label "Gemcitabine" ;
+    a m2r:Drug .
+
+civic:drug_6-thioguanine
+    rdfs:label "6-thioguanine" ;
+    a m2r:Drug .
+
+civic:drug_6-mercaptopurine
+    rdfs:label "6-mercaptopurine" ;
+    a m2r:Drug .
+
+civic:drug_Arabinosylguanine
+    rdfs:label "Arabinosylguanine" ;
+    a m2r:Drug .
+
+civic:drug_Nelarabine
+    rdfs:label "Nelarabine" ;
+    a m2r:Drug .
+
+civic:drug_AEE788
+    rdfs:label "AEE788" ;
+    a m2r:Drug .
+
+civic:drug_Rociletinib
+    rdfs:label "Rociletinib" ;
+    a m2r:Drug .
+
+civic:drug_Carboplatin
+    rdfs:label "Carboplatin" ;
+    a m2r:Drug .
+
+civic:drug_Vinorelbine
+    rdfs:label "Vinorelbine" ;
+    a m2r:Drug .
+
+civic:drug_5-fluorouracil
+    rdfs:label "5-fluorouracil" ;
+    a m2r:Drug .
+
+civic:drug_FolfoxProtocol
+    rdfs:label "FolfoxProtocol" ;
+    a m2r:Drug .
+
+civic:drug_Irinotecan
+    rdfs:label "Irinotecan" ;
+    a m2r:Drug .
+
+civic:drug_Onartuzumab
+    rdfs:label "Onartuzumab" ;
+    a m2r:Drug .
+
+civic:drug_PLATINUM
+    rdfs:label "PLATINUM" ;
+    a m2r:Drug .
+
+civic:drug_EGFRInhibitor
+    rdfs:label "EGFR Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_Vandetanib
+    rdfs:label "Vandetanib" ;
+    a m2r:Drug .
+
+civic:drug_Binimetinib%28MEK162%29
+    rdfs:label "Binimetinib (MEK162)" ;
+    a m2r:Drug .
+
+civic:drug_AZD8055
+    rdfs:label "AZD8055" ;
+    a m2r:Drug .
+
+civic:drug_Nivolumab
+    rdfs:label "Nivolumab" ;
+    a m2r:Drug .
+
+civic:drug_Pembrolizumab
+    rdfs:label "Pembrolizumab" ;
+    a m2r:Drug .
+
+civic:drug_GSK2141795
+    rdfs:label "GSK2141795" ;
+    a m2r:Drug .
+
+civic:drug_AZD5363
+    rdfs:label "AZD5363" ;
+    a m2r:Drug .
+
+civic:drug_Pictilisib
+    rdfs:label "Pictilisib" ;
+    a m2r:Drug .
+
+civic:drug_AZD8186
+    rdfs:label "AZD8186" ;
+    a m2r:Drug .
+
+civic:drug_LY294002
+    rdfs:label "LY294002" ;
+    a m2r:Drug .
+
+civic:drug_Buparlisib
+    rdfs:label "Buparlisib" ;
+    a m2r:Drug .
+
+civic:drug_GSK321
+    rdfs:label "GSK321" ;
+    a m2r:Drug .
+
+civic:drug_Idelalisib
+    rdfs:label "Idelalisib" ;
+    a m2r:Drug .
+
+civic:drug_CBL0137
+    rdfs:label "CBL0137" ;
+    a m2r:Drug .
+
+civic:drug_Vismodegib
+    rdfs:label "Vismodegib" ;
+    a m2r:Drug .
+
+civic:drug_ArsenicTrioxide
+    rdfs:label "Arsenic Trioxide" ;
+    a m2r:Drug .
+
+civic:drug_PSI
+    rdfs:label "PSI" ;
+    a m2r:Drug .
+
+civic:drug_SB202190
+    rdfs:label "SB202190" ;
+    a m2r:Drug .
+
+civic:drug_AKTi-1-2
+    rdfs:label "AKTi-1/2" ;
+    a m2r:Drug .
+
+civic:drug_Cabozantinib
+    rdfs:label "Cabozantinib" ;
+    a m2r:Drug .
+
+civic:drug_Afatinib
+    rdfs:label "Afatinib" ;
+    a m2r:Drug .
+
+civic:drug_Anti-ERBB3Agents
+    rdfs:label "Anti-ERBB3 Agents" ;
+    a m2r:Drug .
+
+civic:drug_Nimotuzumab
+    rdfs:label "Nimotuzumab" ;
+    a m2r:Drug .
+
+civic:drug_WZ4002
+    rdfs:label "WZ4002" ;
+    a m2r:Drug .
+
+civic:drug_LY2835219
+    rdfs:label "LY2835219" ;
+    a m2r:Drug .
+
+civic:drug_PD0332991
+    rdfs:label "PD0332991" ;
+    a m2r:Drug .
+
+civic:drug_Foretinib
+    rdfs:label "Foretinib" ;
+    a m2r:Drug .
+
+civic:drug_BGJ398
+    rdfs:label "BGJ398" ;
+    a m2r:Drug .
+
+civic:drug_DovitinibDilacticAcid%28TKI258DilacticAcid%29
+    rdfs:label "Dovitinib Dilactic Acid (TKI258 Dilactic Acid)" ;
+    a m2r:Drug .
+
+civic:drug_Dovitinib
+    rdfs:label "Dovitinib" ;
+    a m2r:Drug .
+
+civic:drug_SU-5402
+    rdfs:label "SU-5402" ;
+    a m2r:Drug .
+
+civic:drug_JSI-124
+    rdfs:label "JSI-124" ;
+    a m2r:Drug .
+
+civic:drug_NOTCH1Antibody
+    rdfs:label "NOTCH1 Antibody" ;
+    a m2r:Drug .
+
+civic:drug_Patritumab
+    rdfs:label "Patritumab" ;
+    a m2r:Drug .
+
+civic:drug_Lonafarnib
+    rdfs:label "Lonafarnib" ;
+    a m2r:Drug .
+
+civic:drug_Stattic
+    rdfs:label "Stattic" ;
+    a m2r:Drug .
+
+civic:drug_L-FolinicAcid
+    rdfs:label "L-Folinic Acid" ;
+    a m2r:Drug .
+
+civic:drug_Decitabine
+    rdfs:label "Decitabine" ;
+    a m2r:Drug .
+
+civic:drug_Aminoglutethimide
+    rdfs:label "Aminoglutethimide" ;
+    a m2r:Drug .
+
+civic:drug_Oxaliplatin
+    rdfs:label "Oxaliplatin" ;
+    a m2r:Drug .
+
+civic:drug_RG7356
+    rdfs:label "RG7356" ;
+    a m2r:Drug .
+
+civic:drug_Conatumumab
+    rdfs:label "Conatumumab" ;
+    a m2r:Drug .
+
+civic:drug_AUY922
+    rdfs:label "AUY922" ;
+    a m2r:Drug .
+
+civic:drug_Ceritinib
+    rdfs:label "Ceritinib" ;
+    a m2r:Drug .
+
+civic:drug_Lorlatinib
+    rdfs:label "Lorlatinib" ;
+    a m2r:Drug .
+
+civic:drug_Chemotherapy
+    rdfs:label "Chemotherapy" ;
+    a m2r:Drug .
+
+civic:drug_AV-203
+    rdfs:label "AV-203" ;
+    a m2r:Drug .
+
+civic:drug_Abiraterone
+    rdfs:label "Abiraterone" ;
+    a m2r:Drug .
+
+civic:drug_Pertuzumab
+    rdfs:label "Pertuzumab" ;
+    a m2r:Drug .
+
+civic:drug_9F7-F11
+    rdfs:label "9F7-F11" ;
+    a m2r:Drug .
+
+civic:drug_Ganetespib
+    rdfs:label "Ganetespib" ;
+    a m2r:Drug .
+
+civic:drug_SN-38
+    rdfs:label "SN-38" ;
+    a m2r:Drug .
+
+civic:drug_Taxane
+    rdfs:label "Taxane" ;
+    a m2r:Drug .
+
+civic:drug_BMN-673
+    rdfs:label "BMN-673" ;
+    a m2r:Drug .
+
+civic:drug_Ridaforolimus
+    rdfs:label "Ridaforolimus" ;
+    a m2r:Drug .
+
+civic:drug_GNE-617
+    rdfs:label "GNE-617" ;
+    a m2r:Drug .
+
+civic:drug_Salinomycin
+    rdfs:label "Salinomycin" ;
+    a m2r:Drug .
+
+civic:drug_Cyclophosphamide
+    rdfs:label "Cyclophosphamide" ;
+    a m2r:Drug .
+
+civic:drug_Topotecan
+    rdfs:label "Topotecan" ;
+    a m2r:Drug .
+
+civic:drug_ACLYSiRNA
+    rdfs:label "ACLY SiRNA" ;
+    a m2r:Drug .
+
+civic:drug_Anti-EGFRMonoclonalAntibody
+    rdfs:label "Anti-EGFR Monoclonal Antibody" ;
+    a m2r:Drug .
+
+civic:drug_IGF1RMonoclonalAntibody
+    rdfs:label "IGF1R Monoclonal Antibody" ;
+    a m2r:Drug .
+
+civic:drug_Epirubicin
+    rdfs:label "Epirubicin" ;
+    a m2r:Drug .
+
+civic:drug_Raltitrexed
+    rdfs:label "Raltitrexed" ;
+    a m2r:Drug .
+
+civic:drug_Enzastaurin
+    rdfs:label "Enzastaurin" ;
+    a m2r:Drug .
+
+civic:drug_WYE354
+    rdfs:label "WYE354" ;
+    a m2r:Drug .
+
+civic:drug_PP242
+    rdfs:label "PP242" ;
+    a m2r:Drug .
+
+civic:drug_Amrubicin
+    rdfs:label "Amrubicin" ;
+    a m2r:Drug .
+
+civic:drug_IMO
+    rdfs:label "IMO" ;
+    a m2r:Drug .
+
+civic:drug_MonomethylAuristatinE
+    rdfs:label "Monomethyl Auristatin E" ;
+    a m2r:Drug .
+
+civic:drug_L-asparaginase
+    rdfs:label "L-asparaginase" ;
+    a m2r:Drug .
+
+civic:drug_Osimertinib
+    rdfs:label "Osimertinib" ;
+    a m2r:Drug .
+
+civic:drug_Rindopepimut
+    rdfs:label "Rindopepimut" ;
+    a m2r:Drug .
+
+civic:drug_Larotrectinib
+    rdfs:label "Larotrectinib" ;
+    a m2r:Drug .
+
+civic:drug_AGI-5198
+    rdfs:label "AGI-5198" ;
+    a m2r:Drug .
+
+civic:drug_Atezolizumab
+    rdfs:label "Atezolizumab" ;
     a m2r:Drug .
 
 civic:drug_RAF265
     rdfs:label "RAF265" ;
     a m2r:Drug .
 
-civic:drug_Omipalisib%28GSK2126458%29
-    rdfs:label "Omipalisib (GSK2126458)" ;
+civic:drug_RO4987655
+    rdfs:label "RO4987655" ;
+    a m2r:Drug .
+
+civic:drug_BAY86-9766
+    rdfs:label "BAY 86-9766" ;
+    a m2r:Drug .
+
+civic:drug_SCH772984
+    rdfs:label "SCH772984" ;
+    a m2r:Drug .
+
+civic:drug_R1507
+    rdfs:label "R1507" ;
+    a m2r:Drug .
+
+civic:drug_ARRY-470
+    rdfs:label "ARRY-470" ;
+    a m2r:Drug .
+
+civic:drug_Quizartinib%28AC220%29
+    rdfs:label "Quizartinib (AC220)" ;
+    a m2r:Drug .
+
+civic:drug_TrastuzumabEmtansine
+    rdfs:label "Trastuzumab Emtansine" ;
+    a m2r:Drug .
+
+civic:drug_Sym004
+    rdfs:label "Sym004" ;
+    a m2r:Drug .
+
+civic:drug_Saridegib
+    rdfs:label "Saridegib" ;
+    a m2r:Drug .
+
+civic:drug_OICR-9429
+    rdfs:label "OICR-9429" ;
+    a m2r:Drug .
+
+civic:drug_Midostaurin
+    rdfs:label "Midostaurin" ;
+    a m2r:Drug .
+
+civic:drug_4-hydroxytamoxifen
+    rdfs:label "4-hydroxytamoxifen" ;
+    a m2r:Drug .
+
+civic:drug_Anthracycline
+    rdfs:label "Anthracycline" ;
+    a m2r:Drug .
+
+civic:drug_AZ909
+    rdfs:label "AZ909" ;
+    a m2r:Drug .
+
+civic:drug_G-573
+    rdfs:label "G-573" ;
+    a m2r:Drug .
+
+civic:drug_GDC-0623
+    rdfs:label "GDC-0623" ;
+    a m2r:Drug .
+
+civic:drug_Cobimetinib
+    rdfs:label "Cobimetinib" ;
+    a m2r:Drug .
+
+civic:drug_AdjuvantChemotherapy
+    rdfs:label "Adjuvant Chemotherapy" ;
+    a m2r:Drug .
+
+civic:drug_PD-1Inhibitor
+    rdfs:label "PD-1 Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_TIM-3Inhibitor
+    rdfs:label "TIM-3 Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_CP724714
+    rdfs:label "CP724714" ;
+    a m2r:Drug .
+
+civic:drug_AntiangiogenicTherapy
+    rdfs:label "Antiangiogenic Therapy" ;
+    a m2r:Drug .
+
+civic:drug_Avelumab
+    rdfs:label "Avelumab" ;
+    a m2r:Drug .
+
+civic:drug_ARS-853
+    rdfs:label "ARS-853" ;
+    a m2r:Drug .
+
+civic:drug_Ixazomib
+    rdfs:label "Ixazomib" ;
+    a m2r:Drug .
+
+civic:drug_AZD5438
+    rdfs:label "AZD5438" ;
+    a m2r:Drug .
+
+civic:drug_Capmatinib
+    rdfs:label "Capmatinib" ;
+    a m2r:Drug .
+
+civic:drug_WHI-P154
+    rdfs:label "WHI-P154" ;
     a m2r:Drug .
 
 civic:drug_2
     rdfs:label "2" ;
+    a m2r:Drug .
+
+civic:drug_4-pyrimidinediamine
+    rdfs:label "4-pyrimidinediamine" ;
+    a m2r:Drug .
+
+civic:drug_IPI-504
+    rdfs:label "IPI-504" ;
+    a m2r:Drug .
+
+civic:drug_17-DMAG
+    rdfs:label "17-DMAG" ;
+    a m2r:Drug .
+
+civic:drug_JQ1
+    rdfs:label "JQ1" ;
+    a m2r:Drug .
+
+civic:drug_FarnesylthiosalicylicAcid
+    rdfs:label "Farnesylthiosalicylic Acid" ;
+    a m2r:Drug .
+
+civic:drug_Metformin
+    rdfs:label "Metformin" ;
+    a m2r:Drug .
+
+civic:drug_LBH-589
+    rdfs:label "LBH-589" ;
+    a m2r:Drug .
+
+civic:drug_Vorinostat%28SAHA%29
+    rdfs:label "Vorinostat (SAHA)" ;
+    a m2r:Drug .
+
+civic:drug_TrichostatinA%28TSA%29
+    rdfs:label "Trichostatin A (TSA)" ;
+    a m2r:Drug .
+
+civic:drug_Mocetinostat
+    rdfs:label "Mocetinostat" ;
+    a m2r:Drug .
+
+civic:drug_MC1568
+    rdfs:label "MC1568" ;
+    a m2r:Drug .
+
+civic:drug_Brigatinib
+    rdfs:label "Brigatinib" ;
+    a m2r:Drug .
+
+civic:drug_AZD3463
+    rdfs:label "AZD3463" ;
+    a m2r:Drug .
+
+civic:drug_LY3009120
+    rdfs:label "LY3009120" ;
+    a m2r:Drug .
+
+civic:drug_CH5424802
+    rdfs:label "CH5424802" ;
+    a m2r:Drug .
+
+civic:drug_Nicotinamide
+    rdfs:label "Nicotinamide" ;
+    a m2r:Drug .
+
+civic:drug_MitomycinC
+    rdfs:label "Mitomycin C" ;
+    a m2r:Drug .
+
+civic:drug_Chlorambucil
+    rdfs:label "Chlorambucil" ;
+    a m2r:Drug .
+
+civic:drug_Melphalan
+    rdfs:label "Melphalan" ;
+    a m2r:Drug .
+
+civic:drug_FOLFIRIRegimen
+    rdfs:label "FOLFIRI Regimen" ;
+    a m2r:Drug .
+
+civic:drug_Flavopiridol
+    rdfs:label "Flavopiridol" ;
+    a m2r:Drug .
+
+civic:drug_A66
+    rdfs:label "A66" ;
+    a m2r:Drug .
+
+civic:drug_Tgx221
+    rdfs:label "Tgx 221" ;
+    a m2r:Drug .
+
+civic:drug_SpliceostatinA
+    rdfs:label "Spliceostatin A" ;
+    a m2r:Drug .
+
+civic:drug_GDC-0879
+    rdfs:label "GDC-0879" ;
+    a m2r:Drug .
+
+civic:drug_Omipalisib%28GSK2126458%29
+    rdfs:label "Omipalisib (GSK2126458)" ;
+    a m2r:Drug .
+
+civic:drug_Cc-223
+    rdfs:label "Cc-223" ;
+    a m2r:Drug .
+
+civic:drug_MLN0128
+    rdfs:label "MLN0128" ;
+    a m2r:Drug .
+
+civic:drug_XL147%28Pilaralisib%29
+    rdfs:label "XL147 (Pilaralisib)" ;
+    a m2r:Drug .
+
+civic:drug_MEKInhibitor
+    rdfs:label "MEK Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_TAK-733
+    rdfs:label "TAK-733" ;
+    a m2r:Drug .
+
+civic:drug_Taselisib%28GDC-0032%29
+    rdfs:label "Taselisib (GDC-0032)" ;
+    a m2r:Drug .
+
+civic:drug_VTX-11e
+    rdfs:label "VTX-11e" ;
+    a m2r:Drug .
+
+civic:drug_AZ628
+    rdfs:label "AZ628" ;
+    a m2r:Drug .
+
+civic:drug_Amuvatinib
+    rdfs:label "Amuvatinib" ;
+    a m2r:Drug .
+
+civic:drug_LDE225
+    rdfs:label "LDE225" ;
+    a m2r:Drug .
+
+civic:drug_Alemtuzumab
+    rdfs:label "Alemtuzumab" ;
+    a m2r:Drug .
+
+civic:drug_Radiation
+    rdfs:label "Radiation" ;
+    a m2r:Drug .
+
+civic:drug_Ipatasertib
+    rdfs:label "Ipatasertib" ;
+    a m2r:Drug .
+
+civic:drug_GSK126
+    rdfs:label "GSK126" ;
+    a m2r:Drug .
+
+civic:drug_Ipilimumab
+    rdfs:label "Ipilimumab" ;
+    a m2r:Drug .
+
+civic:drug_Flutamide
+    rdfs:label "Flutamide" ;
+    a m2r:Drug .
+
+civic:drug_CyproteroneAcetate
+    rdfs:label "Cyproterone Acetate" ;
+    a m2r:Drug .
+
+civic:drug_Nilutamide
+    rdfs:label "Nilutamide" ;
+    a m2r:Drug .
+
+civic:drug_LGK974
+    rdfs:label "LGK974" ;
+    a m2r:Drug .
+
+civic:drug_PD184352
+    rdfs:label "PD184352" ;
+    a m2r:Drug .
+
+civic:drug_Letrozole
+    rdfs:label "Letrozole" ;
+    a m2r:Drug .
+
+civic:drug_RapaLink-1
+    rdfs:label "RapaLink-1" ;
+    a m2r:Drug .
+
+civic:drug_Apitolisib
+    rdfs:label "Apitolisib" ;
+    a m2r:Drug .
+
+civic:drug_Aspirin
+    rdfs:label "Aspirin" ;
+    a m2r:Drug .
+
+civic:drug_Ribociclib
+    rdfs:label "Ribociclib" ;
+    a m2r:Drug .
+
+civic:drug_PI3KInhibitor
+    rdfs:label "PI3K Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_Nintedanib
+    rdfs:label "Nintedanib" ;
+    a m2r:Drug .
+
+civic:drug_Ruxolitinib
+    rdfs:label "Ruxolitinib" ;
+    a m2r:Drug .
+
+civic:drug_Alpelisib%28NVP-BYL719%29
+    rdfs:label "Alpelisib (NVP-BYL719)" ;
+    a m2r:Drug .
+
+civic:drug_Perifosine
+    rdfs:label "Perifosine" ;
+    a m2r:Drug .
+
+civic:drug_Irbesartan
+    rdfs:label "Irbesartan" ;
+    a m2r:Drug .
+
+civic:drug_IMG-2005-5
+    rdfs:label "IMG-2005-5" ;
+    a m2r:Drug .
+
+civic:drug_IRAK-1-4Inhibitor
+    rdfs:label "IRAK-1/4 Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_Refametinib
+    rdfs:label "Refametinib" ;
+    a m2r:Drug .
+
+civic:drug_Procarbazine
+    rdfs:label "Procarbazine" ;
+    a m2r:Drug .
+
+civic:drug_Lomustine
+    rdfs:label "Lomustine" ;
+    a m2r:Drug .
+
+civic:drug_Vincristine
+    rdfs:label "Vincristine" ;
+    a m2r:Drug .
+
+civic:drug_Cediranib
+    rdfs:label "Cediranib" ;
+    a m2r:Drug .
+
+civic:drug_I-BET151
+    rdfs:label "I-BET151" ;
+    a m2r:Drug .
+
+civic:drug_SGX523
+    rdfs:label "SGX523" ;
+    a m2r:Drug .
+
+civic:drug_AromataseInhibitor
+    rdfs:label "Aromatase Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_SGK1-Inh
+    rdfs:label "SGK1-Inh" ;
+    a m2r:Drug .
+
+civic:drug_BMS-387032%28SNS-032%29
+    rdfs:label "BMS-387032 (SNS-032)" ;
+    a m2r:Drug .
+
+civic:drug_Dinaciclib
+    rdfs:label "Dinaciclib" ;
+    a m2r:Drug .
+
+civic:drug_EPZ-6438
+    rdfs:label "EPZ-6438" ;
+    a m2r:Drug .
+
+civic:drug_JQ1Compound
+    rdfs:label "JQ1 Compound" ;
+    a m2r:Drug .
+
+civic:drug_Lenalidomide
+    rdfs:label "Lenalidomide" ;
+    a m2r:Drug .
+
+civic:drug_Pomalidomide
+    rdfs:label "Pomalidomide" ;
+    a m2r:Drug .
+
+civic:drug_Belinostat
+    rdfs:label "Belinostat" ;
+    a m2r:Drug .
+
+civic:drug_5-FU
+    rdfs:label "5-FU" ;
+    a m2r:Drug .
+
+civic:drug_Tegafur
+    rdfs:label "Tegafur" ;
+    a m2r:Drug .
+
+civic:drug_Methotrexate
+    rdfs:label "Methotrexate" ;
+    a m2r:Drug .
+
+civic:drug_Cixutumumab
+    rdfs:label "Cixutumumab" ;
+    a m2r:Drug .
+
+civic:drug_Savolitinib
+    rdfs:label "Savolitinib" ;
+    a m2r:Drug .
+
+civic:drug_Entrectinib
+    rdfs:label "Entrectinib" ;
+    a m2r:Drug .
+
+civic:drug_MEDI0680
+    rdfs:label "MEDI0680" ;
+    a m2r:Drug .
+
+civic:drug_MEDI4736
+    rdfs:label "MEDI4736" ;
+    a m2r:Drug .
+
+civic:drug_Palbociclib
+    rdfs:label "Palbociclib" ;
+    a m2r:Drug .
+
+civic:drug_Linsitinib
+    rdfs:label "Linsitinib" ;
+    a m2r:Drug .
+
+civic:drug_Rucaparib
+    rdfs:label "Rucaparib" ;
+    a m2r:Drug .
+
+civic:drug_AdoptiveT-cellTransfer
+    rdfs:label "Adoptive T-cell Transfer" ;
+    a m2r:Drug .
+
+civic:drug_BGJ-398
+    rdfs:label "BGJ-398" ;
+    a m2r:Drug .
+
+civic:drug_JNJ-42756493
+    rdfs:label "JNJ-42756493" ;
+    a m2r:Drug .
+
+civic:drug_AKT3Inhibitor
+    rdfs:label "AKT3 Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_CX-5461
+    rdfs:label "CX-5461" ;
+    a m2r:Drug .
+
+civic:drug_CX-3543
+    rdfs:label "CX-3543" ;
+    a m2r:Drug .
+
+civic:drug_AEB071
+    rdfs:label "AEB071" ;
+    a m2r:Drug .
+
+civic:drug_5-Fluoropyrimidine
+    rdfs:label "5-Fluoropyrimidine" ;
+    a m2r:Drug .
+
+civic:drug_AZD4547
+    rdfs:label "AZD4547" ;
+    a m2r:Drug .
+
+civic:drug_BEZ235
+    rdfs:label "BEZ235" ;
+    a m2r:Drug .
+
+civic:drug_Ado-trastuzumabEmtansine
+    rdfs:label "Ado-trastuzumab Emtansine" ;
+    a m2r:Drug .
+
+civic:drug_PI103
+    rdfs:label "PI103" ;
+    a m2r:Drug .
+
+civic:drug_CI-1040
+    rdfs:label "CI-1040" ;
+    a m2r:Drug .
+
+civic:drug_PF00299804
+    rdfs:label "PF 00299804" ;
+    a m2r:Drug .
+
+civic:drug_Canertinib
+    rdfs:label "Canertinib" ;
+    a m2r:Drug .
+
+civic:drug_EAPProtocol
+    rdfs:label "EAP Protocol" ;
+    a m2r:Drug .
+
+civic:drug_AG-120
+    rdfs:label "AG-120" ;
+    a m2r:Drug .
+
+civic:drug_Bis-2-%5B5-%28phenylacetamide%29-1
+    rdfs:label "Bis-2-[5-(phenylacetamide)-1" ;
+    a m2r:Drug .
+
+civic:drug_3
+    rdfs:label "3" ;
+    a m2r:Drug .
+
+civic:drug_4-thiadiazol-2-yl%5DethylSulfide
+    rdfs:label "4-thiadiazol-2-yl]ethyl Sulfide" ;
+    a m2r:Drug .
+
+civic:drug_ImatinibMesylate
+    rdfs:label "Imatinib Mesylate" ;
+    a m2r:Drug .
+
+civic:drug_Mitomycin
+    rdfs:label "Mitomycin" ;
+    a m2r:Drug .
+
+civic:drug_Etoposide
+    rdfs:label "Etoposide" ;
+    a m2r:Drug .
+
+civic:drug_FGF-VEGFReceptorTyrosineKinaseInhibitor
+    rdfs:label "FGF/VEGF Receptor Tyrosine Kinase Inhibitor" ;
+    a m2r:Drug .
+
+civic:drug_Binimetinib
+    rdfs:label "Binimetinib" ;
+    a m2r:Drug .
+
+civic:drug_Larotrectinib%28LOXO-101%29
+    rdfs:label "Larotrectinib (LOXO-101)" ;
+    a m2r:Drug .
+
+civic:drug_Nutlin-3a
+    rdfs:label "Nutlin-3a" ;
+    a m2r:Drug .
+
+civic:drug_AMGMDS3
+    rdfs:label "AMGMDS3" ;
+    a m2r:Drug .
+
+civic:drug_RG7112
+    rdfs:label "RG7112" ;
+    a m2r:Drug .
+
+civic:drug_PD-L1Antibody
+    rdfs:label "PD-L1 Antibody" ;
+    a m2r:Drug .
+
+civic:drug_CTLA-4Antibody
+    rdfs:label "CTLA-4 Antibody" ;
+    a m2r:Drug .
+
+civic:drug_UNC1062
+    rdfs:label "UNC1062" ;
+    a m2r:Drug .
+
+civic:drug_Prexasertib
+    rdfs:label "Prexasertib" ;
+    a m2r:Drug .
+
+civic:drug_MLN518
+    rdfs:label "MLN518" ;
+    a m2r:Drug .
+
+civic:drug_SU11248
+    rdfs:label "SU11248" ;
+    a m2r:Drug .
+
+civic:drug_Quizartinib
+    rdfs:label "Quizartinib" ;
+    a m2r:Drug .
+
+civic:drug_BMS-354825
+    rdfs:label "BMS-354825" ;
+    a m2r:Drug .
+
+civic:drug_PD-180970
+    rdfs:label "PD-180970" ;
+    a m2r:Drug .
+
+civic:drug_AS602868
+    rdfs:label "AS602868" ;
+    a m2r:Drug .
+
+civic:drug_AZD-5363
+    rdfs:label "AZD-5363" ;
+    a m2r:Drug .
+
+civic:drug_RadioactiveIodine
+    rdfs:label "Radioactive Iodine" ;
+    a m2r:Drug .
+
+civic:drug_Bosutinib
+    rdfs:label "Bosutinib" ;
+    a m2r:Drug .
+
+civic:drug_FOLFOX4
+    rdfs:label "FOLFOX4" ;
+    a m2r:Drug .
+
+civic:drug_VEGFInhibition
+    rdfs:label "VEGF Inhibition" ;
+    a m2r:Drug .
+
+civic:drug_Enasidenib%28AG-221%29
+    rdfs:label "Enasidenib (AG-221)" ;
+    a m2r:Drug .
+
+civic:drug_Talazoparib
+    rdfs:label "Talazoparib" ;
+    a m2r:Drug .
+
+civic:drug_Abemaciclib
+    rdfs:label "Abemaciclib" ;
+    a m2r:Drug .
+
+civic:drug_Alectinib
+    rdfs:label "Alectinib" ;
+    a m2r:Drug .
+
+civic:drug_Durvalumab
+    rdfs:label "Durvalumab" ;
+    a m2r:Drug .
+
+civic:drug_Enasidenib
+    rdfs:label "Enasidenib" ;
+    a m2r:Drug .
+
+civic:drug_JQ-1
+    rdfs:label "JQ-1" ;
+    a m2r:Drug .
+
+civic:drug_AZD7762
+    rdfs:label "AZD7762" ;
+    a m2r:Drug .
+
+civic:drug_Rilotumumab
+    rdfs:label "Rilotumumab" ;
+    a m2r:Drug .
+
+civic:drug_TrametinibDMSO
+    rdfs:label "Trametinib DMSO" ;
+    a m2r:Drug .
+
+civic:drug_CRS-IPHC
+    rdfs:label "CRS/IPHC" ;
+    a m2r:Drug .
+
+civic:drug_GDC-0980
+    rdfs:label "GDC-0980" ;
+    a m2r:Drug .
+
+civic:drug_Veliparib
+    rdfs:label "Veliparib" ;
+    a m2r:Drug .
+
+civic:drug_Capecitibine
+    rdfs:label "Capecitibine" ;
+    a m2r:Drug .
+
+civic:drug_Chloroquine
+    rdfs:label "Chloroquine" ;
+    a m2r:Drug .
+
+civic:drug_ADI-PEG20
+    rdfs:label "ADI-PEG20" ;
+    a m2r:Drug .
+
+civic:drug_GF109203X
+    rdfs:label "GF109203X" ;
+    a m2r:Drug .
+
+civic:drug_Go6983
+    rdfs:label "Go6983" ;
+    a m2r:Drug .
+
+civic:drug_U0126
+    rdfs:label "U0126" ;
+    a m2r:Drug .
+
+civic:drug_Encorafenib
+    rdfs:label "Encorafenib" ;
+    a m2r:Drug .
+
+civic:drug_Alpelisib
+    rdfs:label "Alpelisib" ;
+    a m2r:Drug .
+
+civic:drug_Meloxicam
+    rdfs:label "Meloxicam" ;
+    a m2r:Drug .
+
+civic:drug_ZoledronicAcid
+    rdfs:label "Zoledronic Acid" ;
+    a m2r:Drug .
+
+civic:drug_Capecitabin
+    rdfs:label "Capecitabin" ;
+    a m2r:Drug .
+
+civic:drug_Erlotinib-Pertuzumab
+    rdfs:label "Erlotinib/Pertuzumab" ;
+    a m2r:Drug .
+
+civic:drug_LOXO-101
+    rdfs:label "LOXO-101" ;
+    a m2r:Drug .
+
+civic:drug_PLX7486
+    rdfs:label "PLX7486" ;
     a m2r:Drug .
 
 

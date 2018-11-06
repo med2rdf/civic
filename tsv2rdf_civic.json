@@ -11,11 +11,6 @@
 		"disease":"templ_civic.ttl.disease",
 		"drug":"templ_civic.ttl.drug"
 	},
-	"conversion_tables":{
-		"sequence_ontology":"so_table.tsv",
-		"drugs":"drug_table.tsv",
-		"disease":"disease_table.tsv"
-	},
 	"output_file":"civic_sample.ttl",
 	"data_path":"data_c"
 

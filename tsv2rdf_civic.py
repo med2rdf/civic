@@ -251,8 +251,6 @@ class Disease(object):
         self.comma = comma      # 0: No comma >1: Comma present
         self.disease_code = urllib.parse.quote(row.disease.replace(" ","").replace("/","-"))
 
-        logger.info("%s\t%s" % (row.disease, self.disease_code))
-
         self.doid = formatter(row.doid)
         self.disease = row.disease
 
@@ -285,14 +283,14 @@ def main(fw, template, evidence_summaries, variant_summaries, conversion_tables 
 
     tmpfile = conversion_tables['variant_summaries_tmp']
     with open(tmpfile, 'w') as f:
-        p = Popen(["python","check_tsv.py",variant_summaries], stdout=f)
+        p = Popen(["python",conversion_tables['check_program'],variant_summaries], stdout=f)
         p.communicate()
     variantDF=pd.read_csv(tmpfile, delimiter='\t')
     variantDF.fillna('', inplace=True)
 
     tmpfile = conversion_tables['evidence_summaries_tmp']
     with open(tmpfile, 'w') as f:
-        p = Popen(["python","check_tsv.py",evidence_summaries], stdout=f)
+        p = Popen(["python",conversion_tables['check_program'],evidence_summaries], stdout=f)
         p.communicate()
     evidenceDF=pd.read_csv(tmpfile, delimiter='\t')
     evidenceDF.set_index('variant_id')
@@ -420,14 +418,14 @@ if __name__ == '__main__':
     output_file = config['output_file']
     template = config['template']
     conversion_tables = {}
+    conversion_tables['check_program'] = 'check_tsv.py'
     data_path = config['data_path']
 
     #Output file
-    if os.getcwd() == '/tmp':
+    if os.getcwd() == '/':
         output_file = os.path.join(MOUNT_PATH, output_file)
-        fw = open(output_file, 'w')
-    else:
-        fw = open(output_file, 'w')
+    logger.info("Output file: %s" % output_file)
+    fw = open(output_file, 'w')
 
     #Check template file
     if os.path.exists(template['body']) != True:
@@ -452,6 +450,11 @@ if __name__ == '__main__':
     if os.path.exists(data_path) != True:
         data_path = os.path.join(MOUNT_PATH, data_path)
         logger.info("Set data_path: %s" % data_path)
+
+    if os.path.exists(conversion_tables['check_program']) != True:
+        conversion_tables['check_program'] = os.path.join(EXEC_PATH, conversion_tables['check_program'])
+        logger.info("Set check_tsv.py path: %s" % conversion_tables['check_program'])
+
 
     #Output prefix
     fp = open(template['prefix'], 'r')
