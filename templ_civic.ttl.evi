@@ -1,23 +1,22 @@
 
 civice:{{message.evidence_id}}
     dct:references pbm:{{message.pubmed_id}} ;
-    civico:citation "{{message.citation}}"^^xsd:string ;
+    civico:citation "{{message.citation}}" ;
     {%- if message.has_rating %}
-    civico:rating "{{message.rating}}"^^xsd:string ;
+    civico:rating "{{message.rating}}" ;
     {%- endif %}
-    civico:evidenceStatus "{{message.evidence_status}}"^^xsd:string ;
-    civico:evidenceType "{{message.evidence_type}}"^^xsd:string ;
+    civico:evidenceStatus "{{message.evidence_status}}" ;
+    civico:evidenceType "{{message.evidence_type}}" ;
     {%- if message.has_evidence_direction %}
-    civico:evidenceDirection "{{message.evidence_direction}}"^^xsd:string ;
+    civico:evidenceDirection "{{message.evidence_direction}}" ;
     {%- endif %}
     {%- if message.has_clinical_significance %}
-    civico:clinicalSignificance "{{message.clinical_significance}}"^^xsd:string ;
+    civico:clinicalSignificance "{{message.clinical_significance}}" ;
     {%- endif %}
-    civico:evidenceLevel "{{message.evidence_level}}"^^xsd:string ;
+    civico:evidenceLevel "{{message.evidence_level}}" ;
     {%- if message.has_drugs %}
-    civico:drug_description "{{message.drug_description}}"^^xsd:string ; 
     civico:drug {% for Drug in message.Drugs %}{% if Drug.comma > 0 %},{% endif %}civic:drug_{{Drug.name}}{% endfor %} ;
     {%- endif %}
-    civico:evidenceStatement "{{message.evidence_statement}}"^^xsd:string ;
-    a civico:Evidence, m2r:Evidence .
+    dcterms:description "{{message.evidence_statement}}" ;
+    a m2r:Evidence .
 

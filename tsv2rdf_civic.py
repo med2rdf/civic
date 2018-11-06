@@ -1,4 +1,4 @@
-#coding: UTF-8
+# -*- coding: utf-8 -*-
 '''
 Created on 2018/03/04
 '''
@@ -12,6 +12,8 @@ import logging
 import pandas as pd
 import csv
 import re
+import urllib
+from subprocess import Popen,PIPE
 
 RDF_TEMPLATE='templin_civic.ttl'
 EXEC_PATH = '/tmp'
@@ -49,7 +51,7 @@ class Variants(object):
         return
 
 class Variant(object):
-    def __init__(self, variant_id, variant_row, evidence_rows, so_table_dic, disease_table_dic, sequence_no=0 ):
+    def __init__(self, variant_id, variant_row, evidence_rows, sequence_no=0 ):
         '''
         @param evidence_rows: Evidence DataFrame
         @summary: Store variant data (1 row) in the Message object
@@ -68,13 +70,13 @@ class Variant(object):
         self.has_doid = False
 
         self.variant_id = variant_id
-        self.variant = variant_row.variant.values[0].decode('utf-8')
+        self.variant = variant_row.variant.values[0]
 
         self.variant_types=variant_row.variant_types.values[0]
         self.hgvs_expressions = variant_row.hgvs_expressions.values[0]
         self.variant_groups = variant_row.variant_groups.values[0]
 
-        list_variant_types = map(lambda x: so_table_dic[x]  , self.variant_types.split(','))
+        list_variant_types = map(lambda x: urllib.parse.quote(x.replace(" ","").replace("/","-"))  , self.variant_types.split(','))
 
         self.VariantTypes = [ VariantType(comma, variant_type)
                     for comma, variant_type in enumerate(list_variant_types)] 
@@ -86,7 +88,7 @@ class Variant(object):
         else:
             self.has_evidence = True
 
-            self.Publications = [ PublicationId(comma, row, disease_table_dic) for comma, row in evidence_rows.iterrows()]
+            self.Publications = [ PublicationId(comma, row) for comma, row in evidence_rows.iterrows()]
 
             #Delete duplicate rows
             evidence_row = evidence_rows.drop_duplicates(subset=['variant_id'], inplace=False )
@@ -117,7 +119,7 @@ class Variant(object):
             variant_summary = evidence_row.variant_summary.values[0].replace('"','\\"')
             
             if isinstance(variant_summary, str):
-                self.variant_summary=variant_summary.decode('utf-8')
+                self.variant_summary=variant_summary
             else:
                 self.variant_summary=''
 
@@ -131,13 +133,13 @@ class Variant(object):
             
 
             evidence_rows_uniq = evidence_rows.drop_duplicates(['disease'])
-            self.Disease = [ Disease(comma, row, disease_table_dic) for comma, row in evidence_rows_uniq.iterrows()]
+            self.Disease = [ Disease(comma, row) for comma, row in evidence_rows_uniq.iterrows()]
 
             '''
             evidence_rows_uniq = evidence_rows.drop_duplicates(['disease'])
             comma = 0
             for i, row in evidence_rows_uniq.iterrows():
-                msgObject = Disease(0, row, disease_table_dic)
+                msgObject = Disease(0, row)
                 comma +=1
             '''
 
@@ -145,7 +147,7 @@ class Variant(object):
             self.Disease = []
             comma = 0
             for row in evidence_rows.iterrows():
-                self.Disease.append(Disease(comma, row, disease_table_dic))
+                self.Disease.append(Disease(comma, row))
                 comma +=1
             '''
 
@@ -176,7 +178,7 @@ class VariantType(object):
         return
 
 class PublicationId(object):
-    def __init__(self, comma, row, disease_table_dic):
+    def __init__(self, comma, row):
         '''
         @param comma: Variables for controlling output of commas when outputting multiple publications
         @summary: Store multiple evidence_id and doid in the Publications object
@@ -186,9 +188,7 @@ class PublicationId(object):
         self.comma = comma      # 0: No comma >1: Comma present
         self.evidence_id=row.evidence_id
         self.doid=formatter(row.doid)
-        self.disease_code = disease_table_dic[row.disease]
-
-        logger.info("%s\t%s" % (row.disease, self.disease_code))
+        self.disease_code = urllib.parse.quote(row.disease.replace(" ","").replace("/","-"))
 
         if len(self.doid) != 0:
             self.has_doid = True
@@ -196,7 +196,7 @@ class PublicationId(object):
         return
 
 class Publication(object):
-    def __init__(self, row, drug_table_dic, drug_label_dic):
+    def __init__(self, row):
 
         self.has_rating = False
         self.has_evidence_direction = False
@@ -206,7 +206,7 @@ class Publication(object):
 
         self.evidence_id=row.evidence_id
         self.pubmed_id=row.pubmed_id
-        self.citation=row.citation.decode('utf-8')
+        self.citation=row.citation
         self.rating=row.rating
         self.doid=formatter(row.doid)
 
@@ -219,11 +219,11 @@ class Publication(object):
 
 
         #Split drugs
-        wk_drugs_uniq = get_drug_list(self.drug_description, drug_table_dic)
-        self.Drugs =  [ Drug(comma, drugname, drug_label_dic[drugname]) for comma, drugname in enumerate(wk_drugs_uniq)]
+        wk_drugs_uniq = row.drugs.split(",")
+        self.Drugs =  [ Drug(comma, urllib.parse.quote(drugname.replace(" ","").replace("/","-")), drugname) for comma, drugname in enumerate(wk_drugs_uniq)]
 
-        self.evidence_statement=row.evidence_statement.replace('"','\\"').decode('utf-8')
-        self.disease=row.disease.decode('utf-8')
+        self.evidence_statement=row.evidence_statement.replace('"','\\"')
+        self.disease=row.disease
 
         if len(self.doid) != 0:self.has_doid = True
         if len(self.drug_description)>0:self.has_drugs = True
@@ -245,16 +245,16 @@ class Doid(object):
         return
 
 class Disease(object):
-    def __init__(self, comma, row, disease_table_dic):
+    def __init__(self, comma, row):
         self.has_doid = False
 
         self.comma = comma      # 0: No comma >1: Comma present
-        self.disease_code = disease_table_dic[row.disease]
+        self.disease_code = urllib.parse.quote(row.disease.replace(" ","").replace("/","-"))
 
-        #logger.info("%s\t%s" % (row.disease, self.disease_code))
+        logger.info("%s\t%s" % (row.disease, self.disease_code))
 
         self.doid = formatter(row.doid)
-        self.disease = row.disease.decode('utf-8')
+        self.disease = row.disease
 
         if len(self.doid) != 0:self.has_doid = True
 
@@ -280,41 +280,21 @@ def formatter(val):
 
     return retval
 
-def get_drug_list(drugs, drug_table_dic, name_type='StandardName'):
-    '''
-    @param drugs: original drugs
-    @param drug_table_dic: drug dictionary
-    '''
-
-    wk_drugs = []
-
-    for k,v in drug_table_dic.items():
-        regex = '.*%s.*' % k.strip().replace('(', '\(').replace(')', '\)').replace('[', '\[').replace(']', '\]')
-        m = re.match(regex, drugs)
-        if m:
-            wk_drugs.append(v[name_type])
-
-    drugs_uniq = list(set(wk_drugs))
-
-    return drugs_uniq
 
 def main(fw, template, evidence_summaries, variant_summaries, conversion_tables ):
 
-    #SequenceOntology table
-    so_table_dic = {}
-    reader = csv.DictReader(open(conversion_tables['sequence_ontology'],'r'), delimiter="\t")
-    for row in reader:
-        so_table_dic[row['Civic']] = row['SequenceOntology']
-
-    # Disease table
-    disease_table_dic = {}
-    reader = csv.DictReader(open(conversion_tables['disease'],'r'), delimiter="\t")
-    for row in reader:
-        disease_table_dic[row['disease']] = row['URI']
-
-    variantDF=pd.read_csv(variant_summaries, delimiter='\t')
+    tmpfile = conversion_tables['variant_summaries_tmp']
+    with open(tmpfile, 'w') as f:
+        p = Popen(["python","check_tsv.py",variant_summaries], stdout=f)
+        p.communicate()
+    variantDF=pd.read_csv(tmpfile, delimiter='\t')
     variantDF.fillna('', inplace=True)
-    evidenceDF=pd.read_csv(evidence_summaries, delimiter='\t')
+
+    tmpfile = conversion_tables['evidence_summaries_tmp']
+    with open(tmpfile, 'w') as f:
+        p = Popen(["python","check_tsv.py",evidence_summaries], stdout=f)
+        p.communicate()
+    evidenceDF=pd.read_csv(tmpfile, delimiter='\t')
     evidenceDF.set_index('variant_id')
     evidenceDF.fillna('', inplace=True)
 
@@ -334,8 +314,7 @@ def main(fw, template, evidence_summaries, variant_summaries, conversion_tables 
         msgObject = Gene(row["gene_id"], row["gene"], row["entrez_id"], evidenceDF_selected)
 
         namespace = dict(message=msgObject)
-        FeedContent = imageTemplate.render(namespace).encode('utf-8')
-
+        FeedContent = imageTemplate.render(namespace)
         fw.write(FeedContent)
 
     '''
@@ -349,37 +328,32 @@ def main(fw, template, evidence_summaries, variant_summaries, conversion_tables 
         evidence_rows = evidenceDF[ evidenceDF["variant_id"] == row["variant_id"]]
         evidence_rows = evidence_rows.reset_index(drop=True)    #Reset index(0 origin)
 
-        msgObject = Variant(row["variant_id"], variant_row, evidence_rows, so_table_dic, disease_table_dic, sequence_no=i)
+        msgObject = Variant(row["variant_id"], variant_row, evidence_rows, sequence_no=i)
 
         namespace = dict(message=msgObject)
-        FeedContent = imageTemplate.render(namespace).encode('utf-8')
+        FeedContent = imageTemplate.render(namespace)
 
         fw.write(FeedContent)
 
     '''
     Processing evidence-template
     '''
-    #Drug table
-    drug_table_dic = {}
-    drug_label_dic = {}
-    reader = csv.DictReader(open(conversion_tables['drugs'],'r'), delimiter="\t")
-    for row in reader:
-        drug_table_dic[row['DrugName']] = dict( (('StandardName',row['StandardName']), ('DrugLabel',row['DrugLabel'])) )
-
-    for k, v in drug_table_dic.items():
-        drug_label_dic[v['StandardName']] = v['DrugLabel']
 
     imageTemplate = env.get_template(template['evidence'])
 
     #evidenceDF_selected = evidenceDF.drop_duplicates(['doid'])
     evidenceDF_selected = evidenceDF
 
+    drug_hash = {}
+
     for i, row in evidenceDF_selected.iterrows():
 
-        msgObject = Publication(row, drug_table_dic, drug_label_dic)
+        msgObject = Publication(row)
+        for drug in msgObject.Drugs:
+            drug_hash.setdefault(drug.name, Drug(0, drug.name, drug.label))
 
         namespace = dict(message=msgObject)
-        FeedContent = imageTemplate.render(namespace).encode('utf-8')
+        FeedContent = imageTemplate.render(namespace)
         fw.write(FeedContent)
 
     '''
@@ -389,10 +363,10 @@ def main(fw, template, evidence_summaries, variant_summaries, conversion_tables 
 
     evidenceDF_selected = evidenceDF.drop_duplicates(['disease'])
     for i, row in evidenceDF_selected.iterrows():
-        msgObject = Disease(0, row, disease_table_dic)
+        msgObject = Disease(0, row)
 
         namespace = dict(message=msgObject)
-        FeedContent = imageTemplate.render(namespace).encode('utf-8')
+        FeedContent = imageTemplate.render(namespace)
         fw.write(FeedContent)
     
     '''
@@ -403,13 +377,12 @@ def main(fw, template, evidence_summaries, variant_summaries, conversion_tables 
     drugs_list = []
     evidenceDF_selected = evidenceDF.drop_duplicates(['drugs'])
     for i, row in evidenceDF_selected.iterrows():
-        drugs_list.extend(get_drug_list(row.drugs, drug_table_dic, name_type='StandardName'))        
+        drugs_list.append(row.drugs)
 
-    drugs_list_uniq = list(set(drugs_list))
+    msgObject = [ drug for drug in drug_hash.values() ]
 
-    msgObject = [ Drug(0, drug, drug_label_dic[drug]) for drug in drugs_list_uniq ]
     namespace = dict(message=msgObject)
-    FeedContent = imageTemplate.render(namespace).encode('utf-8')
+    FeedContent = imageTemplate.render(namespace)
     fw.write(FeedContent)
         
     return
@@ -446,7 +419,7 @@ if __name__ == '__main__':
 
     output_file = config['output_file']
     template = config['template']
-    conversion_tables = config['conversion_tables']
+    conversion_tables = {}
     data_path = config['data_path']
 
     #Output file
@@ -475,13 +448,6 @@ if __name__ == '__main__':
     if os.path.exists(template['drug']) != True:
         template['drug'] = os.path.join(EXEC_PATH, template['drug'])
         logger.info("Set template file path: %s" % template['drug'])
-        
-    if os.path.exists(conversion_tables['sequence_ontology']) != True:
-        conversion_tables['sequence_ontology'] = os.path.join(EXEC_PATH, conversion_tables['sequence_ontology'])
-        logger.info("Set conversion_tables file path: %s" % conversion_tables['sequence_ontology'])
-    if os.path.exists(conversion_tables['drugs']) != True:
-        conversion_tables['drugs'] = os.path.join(EXEC_PATH, conversion_tables['drugs'])
-        logger.info("Set conversion_tables file path: %s" % conversion_tables['drugs'])
 
     if os.path.exists(data_path) != True:
         data_path = os.path.join(MOUNT_PATH, data_path)
@@ -495,6 +461,8 @@ if __name__ == '__main__':
 
     evidence_summaries=os.path.join(data_path, config['input_file']['evidence_summaries'])
     variant_summaries=os.path.join(data_path, config['input_file']['variant_summaries'])
+    conversion_tables['evidence_summaries_tmp'] = os.path.join(EXEC_PATH, config['input_file']['evidence_summaries'])
+    conversion_tables['variant_summaries_tmp'] = os.path.join(EXEC_PATH, config['input_file']['variant_summaries'])
 
     main( fw, template, evidence_summaries, variant_summaries, conversion_tables )
     pass

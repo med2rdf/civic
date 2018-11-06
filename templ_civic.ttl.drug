@@ -1,7 +1,7 @@
 {%- for Drug in message %}
 civic:drug_{{Drug.name}}
-    rdfs:label "{{Drug.label}}"^^xsd:string ;
-    a civico:Drug .
+    rdfs:label "{{Drug.label}}" ;
+    a m2r:Drug .
 {% endfor %}
 
 

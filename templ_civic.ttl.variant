@@ -1,72 +1,72 @@
 {% if message.has_start2 %}
 civicv:{{message.variant_id}}                 # so:gene_fusion
-    civico:variantName "{{message.variant}}"^^xsd:string ;
+    rdfs:label "{{message.variant}}" ;
 {%- if message.has_evidence %}
     m2r:evidence {% for Publication in message.Publications %}{% if Publication.comma > 0 %},{% endif %}civice:{{Publication.evidence_id}}{% endfor %} ;
 {%- endif %}
     sio:SIO_000974 civic:{{message.chromosome}}_5partner{{message.variant_id}}, civic:{{message.chromosome2}}_3partner{{message.variant_id}} ;    # sio:has-ordered-part
 {%- if message.has_reference_bases %}
-    m2r:reference_allele "{{message.reference_bases}}"^^xsd:string ;
+    m2r:reference_allele "{{message.reference_bases}}" ;
 {%- endif %}
 {%- if message.has_variant_bases %}
-    m2r:alternative_allele "{{message.variant_bases}}"^^xsd:string ;
+    m2r:alternative_allele "{{message.variant_bases}}" ;
 {%- endif %}
 {%- if message.has_hgvs_expressions %}
-    civico:hgvs "{{message.hgvs_expressions}}"^^xsd:string ;
+    civico:hgvs "{{message.hgvs_expressions}}" ;
 {%- endif %}
 {%- if message.has_reference_build %}
-    civico:referenceBuild "{{message.reference_build}}"^^xsd:string ;
+    civico:referenceBuild "{{message.reference_build}}" ;
 {%- endif %}
 {%- if message.has_representative_transcript %}
-    civico:transcript "{{message.representative_transcript}}"^^xsd:string ;
+    rdfs:seeAlso ensembl:{{message.representative_transcript}} ;
 {%- endif %}
 {%- if message.has_ensembl_version %}
-    civico:ensemblVersion "{{message.ensembl_version}}"^^xsd:string ;
+    civico:ensemblVersion "{{message.ensembl_version}}" ;
 {%- endif %}
 {%- if message.has_variant_origin %}
-    civico:variantOrigin "{{message.variant_origin}}"^^xsd:string ;
+    civico:variantOrigin "{{message.variant_origin}}" ;
 {%- endif %}
 {%- if message.has_variant_summary %}
-    civico:variantSummary "{{message.variant_summary}}"^^xsd:string ;
+    dcterms:description "{{message.variant_summary}}" ;
 {%- endif %}
-    civico:variantID "{{message.variant_id}}"^^xsd:string ;
+    civico:variantID "{{message.variant_id}}" ;
     m2r:disease {% for Disease in message.Disease %}{% if Disease.comma > 0 %},{% endif %}civic:{{Disease.disease_code}}{% endfor %} ;
 {%- if message.has_variant_groups %}
-    civico:variantGroups "{{message.variant_groups}}"^^xsd:string ;
+    civico:variantGroups "{{message.variant_groups}}" ;
 {%- endif %}   
     a {% if message.has_variant_types %}{% for VariantType in message.VariantTypes %}{% if VariantType.comma > 0 %},{% endif %}obo:{{VariantType.variant_type}}{% endfor %}, {% endif %}m2r:Variation .
 
 civic:{{message.chromosome}}_5partner{{message.variant_id}}                              
-    sio:SIO_000300 "1"^^xsd:integer ; 
+    sio:SIO_000300 "1" ; 
     faldo:location [
       a faldo:Region ;
         faldo:begin [ a faldo:ExactPosition, faldo:ForwardStrandPosition ;
-                      faldo:position "{{ message.start }}"^^xsd:integer ;
-                      faldo:reference "{{ message.chromosome }}"^^xsd:integer 
+                      faldo:position "{{ message.start }}" ;
+                      faldo:reference hco:{{ message.chromosome }}#{{ message.reference_build}} 
                       ] ;
         faldo:end   [ a faldo:ExactPosition, faldo:ForwardStrandPosition ;
-                      faldo:position "{{ message.stop }}"^^xsd:integer ;
-                      faldo:reference "{{ message.chromosome }}"^^xsd:integer
+                      faldo:position "{{ message.stop }}" ;
+                      faldo:reference hco:{{ message.chromosome }}#{{ message.reference_build}}
         ]
      ] .
 
 
 civic:{{message.chromosome2}}_3partner{{message.variant_id}} 
-    sio:SIO_000300 "2"^^xsd:integer ;                             
+    sio:SIO_000300 "2" ;                             
      faldo:location [
        a faldo:Region ;
          faldo:begin [ a faldo:ExactPosition, faldo:ForwardStrandPosition ;
-                       faldo:position "{{message.start2}}"^^xsd:integer ;
-                       faldo:reference "{{message.chromosome2}}"^^xsd:integer
+                       faldo:position {{message.start2}} ;
+                       faldo:reference hco:{{message.chromosome2}}#{{ message.reference_build}}
                        ] ;
          faldo:end   [ a faldo:ExactPosition, faldo:ForwardStrandPosition ;
-                       faldo:position "{{message.stop2}}"^^xsd:integer ;
-                       faldo:reference "{{message.chromosome2}}"^^xsd:integer
+                       faldo:position {{message.stop2}} ;
+                       faldo:reference hco:{{message.chromosome2}}#{{ message.reference_build}}
         ]
      ] .
 {% else %}
 civicv:{{message.variant_id}}
-    civico:variantName "{{message.variant}}"^^xsd:string ;
+    rdfs:label "{{message.variant}}" ;
 {%- if message.has_evidence %}
     m2r:evidence {% for Publication in message.Publications %}{% if Publication.comma > 0 %},{% endif %}civice:{{Publication.evidence_id}}{% endfor %} ;
 {%- endif %}
@@ -75,55 +75,47 @@ civicv:{{message.variant_id}}
     a faldo:Region ;
         faldo:begin [
             a faldo:ExactPosition ;
-            faldo:position "{{message.start}}"^^xsd:integer ;
-            faldo:reference "{{message.chromosome}}"^^xsd:integer
+            faldo:position {{message.start}} ;
+            faldo:reference hco:{{message.chromosome}}#{{ message.reference_build}}
         ];
 	    faldo:end [
             a faldo:ExactPosition ;
-            faldo:position "{{message.stop}}"^^xsd:integer ;
-            faldo:reference "{{message.chromosome}}"^^xsd:integer
+            faldo:position {{message.stop}} ;
+            faldo:reference hco:{{message.chromosome}}#{{ message.reference_build}}
         ]
     ] ;
     {%- endif %}
     {%- if message.has_reference_bases %}
-    m2r:reference_allele "{{message.reference_bases}}"^^xsd:string ;
+    m2r:reference_allele "{{message.reference_bases}}" ;
     {%- endif %}
     {%- if message.has_variant_bases %}
-    m2r:alternative_allele "{{message.variant_bases}}"^^xsd:string ;
+    m2r:alternative_allele "{{message.variant_bases}}" ;
     {%- endif %}
     {%- if message.has_hgvs_expressions %}
-    civico:hgvs "{{message.hgvs_expressions}}"^^xsd:string ;
+    civico:hgvs "{{message.hgvs_expressions}}" ;
     {%- endif %}
     {%- if message.has_reference_build %}
-    civico:referenceBuild "{{message.reference_build}}"^^xsd:string ;
+    civico:referenceBuild "{{message.reference_build}}" ;
     {%- endif %}
     {%- if message.has_representative_transcript %}
-    civico:transcript "{{message.representative_transcript}}"^^xsd:string ;
+    civico:transcript "{{message.representative_transcript}}" ;
     {%- endif %}
     {%- if message.has_ensembl_version %}
-    civico:ensemblVersion "{{message.ensembl_version}}"^^xsd:string ;
+    civico:ensemblVersion "{{message.ensembl_version}}" ;
     {%- endif %}
     {%- if message.has_variant_origin %}
-    civico:variantOrigin "{{message.variant_origin}}"^^xsd:string ;
+    civico:variantOrigin "{{message.variant_origin}}" ;
     {%- endif %}
     {%- if message.has_variant_summary %}
-    civico:variantSummary "{{message.variant_summary}}"^^xsd:string ;
+    dcterms:description "{{message.variant_summary}}" ;
     {%- endif %}
     {%- if message.has_evidence  %}
     m2r:disease {% for Disease in message.Disease %}{% if Disease.comma > 0 %},{% endif %}civic:{{Disease.disease_code}}{% endfor %} ;
     {%- endif %}
-    civico:variantID "{{message.variant_id}}"^^xsd:string ;
+    dcterms:identifier "{{message.variant_id}}" ;
     {%- if message.has_variant_groups %}
-    civico:variantGroups "{{message.variant_groups}}"^^xsd:string ;
+    civico:variantGroups "{{message.variant_groups}}" ;
     {%- endif %}
     a {% if message.has_variant_types %}{% for VariantType in message.VariantTypes %}{% if VariantType.comma > 0 %},{% endif %}obo:{{VariantType.variant_type}}{% endfor %}, {% endif %}m2r:Variation .
 {% endif %}
 
-{%- for Publication in message.Publications %}
-civic:statement_{{message.variant_id}}_{{Publication.evidence_id}}
-    rdf:subject civicv:{{message.variant_id}} ;
-    rdf:property m2r:disease ;
-    rdf:object civic:{{Publication.disease_code}} ;
-    m2r:evidence civice:{{Publication.evidence_id}} ;
-    a rdf:Statement .
-{% endfor %}
