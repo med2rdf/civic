@@ -41,12 +41,12 @@ civic:{{message.chromosome}}_5partner{{message.variant_id}}
     faldo:location [
       a faldo:Region ;
         faldo:begin [ a faldo:ExactPosition, faldo:ForwardStrandPosition ;
-                      faldo:position "{{ message.start }}" ;
-                      faldo:reference hco:{{ message.chromosome }}#{{ message.reference_build}} 
+                      faldo:position {{ message.start }} ;
+                      faldo:reference hco:{{ message.chromosome }}\#{{ message.reference_build}} 
                       ] ;
         faldo:end   [ a faldo:ExactPosition, faldo:ForwardStrandPosition ;
-                      faldo:position "{{ message.stop }}" ;
-                      faldo:reference hco:{{ message.chromosome }}#{{ message.reference_build}}
+                      faldo:position {{ message.stop }} ;
+                      faldo:reference hco:{{ message.chromosome }}\#{{ message.reference_build}}
         ]
      ] .
 
@@ -57,11 +57,11 @@ civic:{{message.chromosome2}}_3partner{{message.variant_id}}
        a faldo:Region ;
          faldo:begin [ a faldo:ExactPosition, faldo:ForwardStrandPosition ;
                        faldo:position {{message.start2}} ;
-                       faldo:reference hco:{{message.chromosome2}}#{{ message.reference_build}}
+                       faldo:reference hco:{{message.chromosome2}}\#{{ message.reference_build}}
                        ] ;
          faldo:end   [ a faldo:ExactPosition, faldo:ForwardStrandPosition ;
                        faldo:position {{message.stop2}} ;
-                       faldo:reference hco:{{message.chromosome2}}#{{ message.reference_build}}
+                       faldo:reference hco:{{message.chromosome2}}\#{{ message.reference_build}}
         ]
      ] .
 {% else %}
@@ -76,12 +76,12 @@ civicv:{{message.variant_id}}
         faldo:begin [
             a faldo:ExactPosition ;
             faldo:position {{message.start}} ;
-            faldo:reference hco:{{message.chromosome}}#{{ message.reference_build}}
+            faldo:reference hco:{{message.chromosome}}\#{{ message.reference_build}}
         ];
 	    faldo:end [
             a faldo:ExactPosition ;
             faldo:position {{message.stop}} ;
-            faldo:reference hco:{{message.chromosome}}#{{ message.reference_build}}
+            faldo:reference hco:{{message.chromosome}}\#{{ message.reference_build}}
         ]
     ] ;
     {%- endif %}
