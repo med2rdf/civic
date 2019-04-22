@@ -10,7 +10,7 @@
 @prefix ensembl: <http://identifiers.org/ensembl/> .
 @prefix faldo: <http://biohackathon.org/resource/faldo#> .
 @prefix hco: <http://identifiers.org/hco/> .
-@prefix m2r: <http://med2rdf/org/ontology/med2rdf#> .
+@prefix m2r: <http://med2rdf.org/ontology/med2rdf#> .
 @prefix pbm: <http://identifiers.org/pubmed/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix dct:<http://purl.org/dc/terms/> .
