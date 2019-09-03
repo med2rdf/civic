@@ -18,7 +18,8 @@ civicv:{{message.variant_id}}                 # so:gene_fusion
     civico:referenceBuild "{{message.reference_build}}" ;
 {%- endif %}
 {%- if message.has_representative_transcript %}
-    rdfs:seeAlso ensembl:{{message.representative_transcript}} ;
+    m2r:transcript transcript:{{message.transcript}} ;
+    civico:transcript_label "{{message.representative_transcript}}" ;
 {%- endif %}
 {%- if message.has_ensembl_version %}
     civico:ensemblVersion "{{message.ensembl_version}}" ;
@@ -34,7 +35,8 @@ civicv:{{message.variant_id}}                 # so:gene_fusion
 {%- if message.has_variant_groups %}
     civico:variantGroups "{{message.variant_groups}}" ;
 {%- endif %}   
-    a {% if message.has_variant_types %}{% for VariantType in message.VariantTypes %}{% if VariantType.comma > 0 %},{% endif %}obo:{{VariantType.variant_type}}{% endfor %}, {% endif %}m2r:Variation .
+    {% if message.has_variant_types %}civico:variant_type {% for VariantType in message.VariantTypes %}{% if VariantType.comma > 0 %},{% endif %}civic:{{VariantType.variant_type}}{% endfor %} ;{% endif %}
+    a m2r:Variation .
 
 civic:{{message.chromosome}}_5partner{{message.variant_id}}                              
     sio:SIO_000300 "1" ; 
@@ -98,7 +100,8 @@ civicv:{{message.variant_id}}
     civico:referenceBuild "{{message.reference_build}}" ;
     {%- endif %}
     {%- if message.has_representative_transcript %}
-    civico:transcript "{{message.representative_transcript}}" ;
+    m2r:transcript transcript:{{message.transcript}} ;
+    civico:transcript_label "{{message.representative_transcript}}" ;
     {%- endif %}
     {%- if message.has_ensembl_version %}
     civico:ensemblVersion "{{message.ensembl_version}}" ;
@@ -116,6 +119,7 @@ civicv:{{message.variant_id}}
     {%- if message.has_variant_groups %}
     civico:variantGroups "{{message.variant_groups}}" ;
     {%- endif %}
-    a {% if message.has_variant_types %}{% for VariantType in message.VariantTypes %}{% if VariantType.comma > 0 %},{% endif %}obo:{{VariantType.variant_type}}{% endfor %}, {% endif %}m2r:Variation .
+    {% if message.has_variant_types %}civico:variant_type {% for VariantType in message.VariantTypes %}{% if VariantType.comma > 0 %},{% endif %}civic:{{VariantType.variant_type}}{% endfor %} ;{% endif %}
+    a m2r:Variation .
 {% endif %}
 

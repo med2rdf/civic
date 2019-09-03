@@ -1,0 +1,67 @@
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
+@prefix civic: <http://purl.jp/bio/10/civic/> .
+@prefix civico: <http://purl.jp/bio/10/civic/ontology#> .
+@prefix civicg: <https://civic.genome.wustl.edu/links/genes/> .
+@prefix civicv: <https://civic.genome.wustl.edu/links/variants/> .
+@prefix civice: <https://civic.genome.wustl.edu/links/evidence_items/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ensembl: <http://identifiers.org/ensembl/> .
+@prefix transcript: <http://rdf.ebi.ac.uk/resource/ensembl.transcript/> .
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix hco: <http://identifiers.org/hco/> .
+@prefix m2r: <http://med2rdf.org/ontology/med2rdf#> .
+@prefix pbm: <http://identifiers.org/pubmed/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix dct:<http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+civicg:28
+    rdfs:seeAlso <http://identifiers.org/ncbigene/3717> ;
+    dcterms:identifier "28" ;
+    m2r:variation civicv:64,civicv:571,civicv:615,civicv:1681 ;
+    rdfs:label "JAK2" ;
+    a m2r:Gene .
+
+civicv:64
+    rdfs:label "V617F" ;
+    m2r:evidence civice:1,civice:5,civice:7,civice:19,civice:20 ;
+    faldo:location [
+    a faldo:Region ;
+        faldo:begin [
+            a faldo:ExactPosition ;
+            faldo:position 5073770 ;
+            faldo:reference hco:9\#GRCh37
+        ];
+            faldo:end [
+            a faldo:ExactPosition ;
+            faldo:position 5073770 ;
+            faldo:reference hco:9\#GRCh37
+        ]
+    ] ;
+    m2r:reference_allele "G" ;
+    m2r:alternative_allele "T" ;
+    civico:referenceBuild "GRCh37" ;
+    m2r:transcript transcript:ENST00000381652 ;
+    civico:transcript_label "ENST00000381652.3" ;
+    civico:ensemblVersion "75" ;
+    civico:variantOrigin "Somatic Mutation" ;
+    dcterms:description "JAK2 V617F is a highly recurrent mutation in myeloproliferative diseases. It is found in around 98% of patients with polycythemia vera, and just over half of the patients with essential thrombocythemia and primary myelofibrosis. While less associated with cancer, when it is seen, it is more likely to be in myeloid leukemias than lymphoid leukemias. The V617F mutation is an activating mutation, resulting in increased kinase activity. The mutation seems to be restricted to hematologic malignancies. Treatment of JAK mutant diseases with ruxolitinib has seen some clinical success." ;
+    m2r:disease civic:LymphoidLeukemia,civic:ChronicMyeloidLeukemia,civic:BoneMarrowCancer,civic:PolycythemiaVera ;
+    dcterms:identifier "64" ;
+    civico:variant_type civic:gain_of_function_variant,civic:missense_variant ;
+    a m2r:Variation .
+
+
+civice:1
+    dct:references pbm:16081687 ;
+    civico:citation "Levine et al., 2005, Blood" ;
+    civico:rating "4.0" ;
+    civico:evidenceStatus "accepted" ;
+    civico:evidenceType "Diagnostic" ;
+    civico:evidenceDirection "Supports" ;
+    civico:clinicalSignificance "Negative" ;
+    civico:evidenceLevel "B" ;
+    dcterms:description "JAK2 V617F is not associated with lymphoid leukemia (B-lineage ALL, T-ALL or CLL)." ;
+    a m2r:Evidence .

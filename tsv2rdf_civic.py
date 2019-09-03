@@ -127,6 +127,7 @@ class Variant(object):
             self.variant_bases=evidence_row.variant_bases.values[0]
             self.reference_build=evidence_row.reference_build.values[0]
             self.representative_transcript=evidence_row.representative_transcript.values[0]
+            self.transcript = self.representative_transcript.split(".",1)[0]
             self.ensembl_version=formatter(evidence_row.ensembl_version.values[0])
             wk_df = evidence_rows.drop_duplicates(subset=['doid'], inplace=False )
             #wk_df = wk_df[~wk_df['doid'].isnull()].reset_index(drop=True)

@@ -11,7 +11,7 @@
 		"disease":"templ_civic.ttl.disease",
 		"drug":"templ_civic.ttl.drug"
 	},
-	"output_file":"civic_sample.ttl",
+	"output_file":"civic.ttl",
 	"data_path":"data_c"
 
 }
