@@ -30,8 +30,10 @@ class Gene(object):
         '''
         @summary: Store gene data (1 row) in the Message object
         '''
-
-        self.gene_id = gene_id
+        if isinstance(gene_id, float):
+            self.gene_id = int(gene_id)
+        else:
+            self.gene_id = gene_id
         self.gene = gene
         self.entrez_id = entrez_id
         
@@ -45,7 +47,10 @@ class Gene(object):
 
 class Variants(object):
     def __init__(self, comma, variant_id ):
-        self.variant_id = variant_id
+        if isinstance(variant_id, float):
+            self.variant_id = int(variant_id)
+        else:
+            self.variant_id = variant_id
         self.comma = comma      # 0: No comma >1: comma present
 
         return
@@ -69,7 +74,10 @@ class Variant(object):
         self.has_gene_id = False
         self.has_doid = False
 
-        self.variant_id = variant_id
+        if isinstance(variant_id, float):
+            self.variant_id = int(variant_id)
+        else:
+            self.variant_id = variant_id
         self.variant = variant_row.variant.values[0]
 
         self.variant_types=variant_row.variant_types.values[0]
@@ -187,7 +195,10 @@ class PublicationId(object):
         self.has_doid = False
 
         self.comma = comma      # 0: No comma >1: Comma present
-        self.evidence_id=row.evidence_id
+        if isinstance(row.evidence_id, float):
+            self.evidence_id=int(row.evidence_id)
+        else:
+            self.evidence_id=row.evidence_id
         self.doid=formatter(row.doid)
         self.disease_code = urllib.parse.quote(row.disease.replace(" ","").replace("/","-"))
 
@@ -205,7 +216,10 @@ class Publication(object):
         self.has_drugs = False
         self.has_doid = False
 
-        self.evidence_id=row.evidence_id
+        if isinstance(row.evidence_id, float):
+            self.evidence_id=int(row.evidence_id)
+        else:
+            self.evidence_id=row.evidence_id
         self.pubmed_id=row.pubmed_id
         self.citation=row.citation
         self.rating=row.rating
